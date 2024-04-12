@@ -1,0 +1,15 @@
+.secondclassname{
+    display: none;
+}
+
+
+@media only screen and (max-width:1200px) {
+    .secondclassname{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .firstcomponent{
+        display: none;
+    }
+}

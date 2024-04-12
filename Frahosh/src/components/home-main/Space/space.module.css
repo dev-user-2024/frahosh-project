@@ -1,0 +1,70 @@
+.container{
+    background: linear-gradient(90deg, #071E47 -18.75%, #000A1C 45.42%);
+    width: 100%;
+    height: 1024px;
+}
+.webs{
+    background-image: url(../../../assets/image/space/webs.png);
+    width: 100%;
+    height: 1024px;
+    position: relative;
+}
+.planets{
+    position: absolute;
+    bottom: 540px;
+    left: 530px;
+    transition: transform .2s;
+}
+.divinfo{
+    display: none;
+    background-color: #071E47;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    bottom: 540px;
+    left: 400px;
+}
+.divinfo:after,
+.divinfo:before {
+  bottom: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.divinfo:after {
+  border-color: rgba(255, 255, 255, 0);
+  border-bottom-color: #ffffff;
+  border-width: 19px;
+  left: 50%;
+  margin-left: -19px;
+}
+
+.divinfo:before {
+  border-color: rgba(113, 158, 206, 0);
+  border-bottom-color: #719ECE;
+  border-width: 20px;
+  left: 50%;
+  margin-left: -20px;
+}
+.planets:hover + .divinfo {
+    display: block;
+}
+.planets:hover {
+    transform: scale(2.5);
+}
+/* .divinfo:after {
+    content:'';
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: 10px solid #ffffff;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+} */

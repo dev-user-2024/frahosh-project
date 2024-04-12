@@ -1,0 +1,110 @@
+.box {
+font-family: 'Rokh-medium';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+/* color: #1D9BF0; */
+border-width: 4px;
+border-style: solid;
+ border: 7px solid #1D9BF0;
+ border-radius: 30px;
+ padding-top: 36px;
+ padding-bottom: 28px;
+ padding-right: 150px;
+ padding-left: 150px;
+}
+.layer2{
+    border-width: 4px;
+    border-style: solid;
+    border: 5px solid #FAFF02;
+    width: 100%;
+    padding: 15px;
+    border-radius: 40px;
+    }
+.layer3{
+    position: relative;
+    margin-top: 240px;
+    padding: 25px;
+    }
+    .layer3::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        border-radius: 50px; 
+        padding: 1px; 
+        background:linear-gradient(45deg,rgba(29, 155, 240, 1),
+        rgba(29, 155, 240, 0.03),
+        rgba(29, 155, 240, 0.03),
+        rgba(29, 155, 240, 1)); 
+        -webkit-mask: 
+           linear-gradient(#fff 0 0) content-box, 
+           linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+                mask-composite: exclude; 
+      }
+.box h3{
+    font-family: "Rokh-Bold";
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-right: -35px;
+
+}
+.box p{
+    font-family: "IRANSansX";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    /* color: #040C1A; */
+    margin-right: 20px;
+}
+.card{
+    padding: 0px 20px;
+    text-align: center;
+}
+.card_img{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+}
+@media only screen and (max-width: 900px) {
+    .lastch {
+        display: none;
+    }
+
+    .box {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .box p {
+        font-size: 17px;
+        margin-right: 30px;
+    }
+    .box h3{
+        text-align: center;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+    .layer2{
+        padding: 8px;
+        height: auto;
+    }
+    .layer3{
+        padding: 10px;
+        margin-top: 240px;
+    }
+    .grid{
+        transform: scale(0.7);
+        direction: ltr;
+        margin-right: 0px;
+    }
+    img{
+    }
+}
+@media only screen and (max-width: 500px) {
+    .card{
+        margin-right: 27px;
+    }
+}

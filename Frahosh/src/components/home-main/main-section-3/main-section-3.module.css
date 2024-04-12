@@ -1,0 +1,314 @@
+
+.section_3_title{
+    width: 100%;
+}
+.section_3{
+    width: 85%;
+    height: fit-content;
+    margin-bottom: 6%;
+}
+.section_3_right{
+    width: 60%;
+    height: fit-content;
+}
+.section_3_text{
+    font-family: "IRANSansX";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: right;
+    width: 100%;
+    height: fit-content;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    direction: rtl;
+}
+.home_section_3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    margin-bottom: 5%;
+    height: fit-content;
+}
+.section_3_img{
+    width: 624.6px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pic3{
+    width: 511px;
+    height: 511px;
+}
+.section4_2_mobpic{
+    margin-top: 5%;
+
+}
+
+.section_3_2desktop{
+    width: 100%;
+    background: linear-gradient(181.32deg, #004B7D -7.87%, #1D9BF0 79.56%);
+    filter: drop-shadow(5px 10px 35px rgba(0, 0, 0, 0.15));
+    border-radius: 50px;
+    
+}
+.main_section_3_2_bgimg{
+    background-image: url('../../../assets/image/lines.svg');
+    border-radius: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.bg_section_3_2{
+    border: 5px dashed #FAFAFA;
+    border-radius: 40px;
+    height: 570px;
+    margin: 1%;
+    padding: 3%;
+    width: 98%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.section_3_2_title{
+    color: rgba(250, 255, 2, 1);
+    width: 566px;
+    height: 38px;
+    font-family: "Rokh-Bold";
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: right;
+
+}
+.section_3_2_text{
+    color: #FAFAFA;
+    font-family: "IRANSansX";
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 50px;
+    width: 560px;
+    height: 128px;
+    letter-spacing: 0em;
+    text-align: right;
+
+}
+.bg_section_3_2{
+    position: relative;
+}
+.section3_2_context{
+    position: absolute;
+    top: 10%;
+    right: 7%;
+
+}
+.section4_2_mobpic{
+    position: relative;
+}
+.section3_2_images{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: right;
+    position: relative;
+}
+.home_section_1{
+    width: 1139px;
+    height: 512.3px;
+    margin: auto;
+}
+.section_1_title{
+    font-family: "Rokh-Bold";
+    font-style: normal;
+    color: #1D9BF0;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: right;
+    font-feature-settings: 'ss01' on, 'calt' off, 'rclt' off;
+
+}
+.section_1_items{
+    padding: 5%;
+}
+.right_context{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.section_1_text{
+    font-family: 'IRANSansX';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: right;
+    width: 658px;
+    height: 364px;
+}
+.pic{
+    width: 411.13px;
+    height: 495.53px;
+}
+.section_1_btn{
+    align-self: flex-end;
+}
+.home_section_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    /* margin-top: 8%; */
+    margin-bottom: 5%;
+}
+.main_spaccePic{
+    max-width: 1440px;
+    width: 100٪;
+    height: 1024px;
+    background: linear-gradient(90deg, #071E47 -18.75%, #000A1C 45.42%);
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.05), inset -5px -5px 20px rgba(0, 0, 0, 0.04);
+}
+.spacePic{
+    width: 100%;
+}
+.section_3_2_mobile{
+    visibility: hidden;
+    display: none;
+    width: 100%;
+}
+.section3_2_mobtitle{
+    /* background-image: url('../../../assets/image/Rectangle\ 35.png'); */
+    background: linear-gradient(181.32deg, #004B7D -7.87%, #1D9BF0 79.56%);
+    min-width: 100%;
+    height: 73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.section3_2_mobtitle p{
+    font-family: 'Rokh-Bold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+/* identical to box height */
+
+text-align: right;
+font-feature-settings: 'ss01' on, 'calt' off, 'rclt' off;
+
+color: #FAFF02;
+text-align: center;
+}
+.section3_2_mobtext{
+    width: 80%;
+    height: fit-content;
+    margin-top: 6%;
+    margin-bottom: 4%;
+    font-family: 'IRANSansX';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 235%;
+    text-align: center;
+    font-feature-settings: 'ss02' on;
+    color: #040C1A;
+}
+.section3_2mobpic img{
+    width: 368px;
+    height: 145px;
+}
+@media  only screen and (max-width:1200px){
+    .home_section3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .section_3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width:100%;
+        height: fit-content;
+        margin-bottom: 20px;
+    }
+    .pic,
+    .section_3_img{
+        width: 313px;
+        height: 353.31px;
+    }
+    .section_3_right{
+        width: 100%;
+        height: fit-content;
+    }
+    .section_3_text{
+        width: 80%;
+        height: fit-content;
+    }
+    .section_3_btn{
+        align-self: center;
+    }
+    .section_3_2desktop{
+        display: none;
+        visibility: hidden;
+    }
+    .section_3_2_mobile{
+        visibility: visible;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media  only screen and (max-width:500px){
+    .section_3{
+        width: 100%;
+        height: fit-content;
+        justify-content: start;
+    }
+    .pic,
+    .section_3_img{
+        width: 213px;
+        height: 253.31px;
+    }
+    .section_3_title{
+        margin-bottom: 10px;
+        font-weight: 400 !important;
+        font-size: 20px  !important;
+        text-align: center;
+    }
+    .section_3_text{
+        width: 80%;
+        font-size: 14px !important;
+        line-height: 35px !important;
+        text-align: center;
+    }
+    .section_3_title{
+        font-size: 20px;
+        text-align: center;
+    }
+    .section_3_text{
+        height: fit-content;
+    }
+    .section3_2_mobtext{
+        width: 80%;
+        height: fit-content;
+        font-size: 14px !important;
+        line-height: 35px !important;
+        text-align: center;
+    }
+    .section3_2mobpic img{
+        width: 100%;
+    }
+}

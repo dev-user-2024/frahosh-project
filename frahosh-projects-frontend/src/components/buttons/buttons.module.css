@@ -1,0 +1,28 @@
+.button_container {
+  width: 150px;
+  height: 33px;
+  padding: 10px;
+  /* gradient-cyan */
+
+  background: linear-gradient(92.61deg, #5be2ff 0%, #066b81 108.3%);
+  border-radius: 25px;
+  color: #0f0c13;
+
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+}
+
+.button_container:hover {
+  transform: scale(1.07);
+}
+
+.button_1 {
+  width: 181px;
+  height: 44px;
+  font-size: 18px;
+  font-family: 'YekanBakh';
+}

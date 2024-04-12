@@ -1,0 +1,73 @@
+.container {
+    width: 90%;
+    margin:0 auto;
+    margin-top: 220px;
+    direction: rtl;
+ }
+
+ 
+ .box {
+     font-family: 'Rokh-medium';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 24px;
+     color: #1D9BF0;
+     direction: rtl;
+     width: 100%;
+     height: 292px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: flex-start;
+     overflow-x: scroll;
+     overflow: hidden;
+ }
+ 
+ .box p {
+     font-family: "IRANSansX";
+     font-style: normal;
+     font-weight: 500;
+     font-size: 20px;
+     text-align: center;
+     color: #040C1A;
+     margin-top: -20px;
+     margin-left: 0px;
+     margin-right: 60px;
+ }
+ 
+ .container h3 {
+     color: #1D9BF0;
+     font-family: "Rokh-Bold";
+     font-weight: 600;
+     font-size: 30px;
+     margin-bottom: 50px;
+     direction: rtl;
+ }
+ 
+ @media only screen and (max-width: 1100px) {
+     .container {
+         max-width: 100%;
+         margin:0 auto;
+         margin-top: 100px;
+      }
+      .box {
+         color: #1D9BF0;
+         direction: rtl;
+         width: 100%;
+         height: 220px;
+     }
+     .box p {
+         font-family: "IRANSansX";
+         font-style: normal;
+         font-weight: 500;
+         font-size: 19px;
+        margin-left: 120px;
+        margin-right: 0px;
+     }
+     .container h3 {
+         font-weight: 600;
+         font-size: 24px;
+         text-align: center;
+ 
+     }
+ }

@@ -1,0 +1,73 @@
+.breadcrumb {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border: 1px solid #095385 !important;
+  }
+  .breadcrumb li {
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+    flex: auto;
+ 
+  }
+  .breadcrumb li span {
+   color: #fff;
+   
+  }
+ .breadcrumb li:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-right: 30px solid #095385;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    right: 100%;
+    z-index: 2;
+  }
+ .breadcrumb li:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-right: 30px solid white;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    margin-right: 2px;
+    right: 100%;
+    z-index: 1;
+  }
+ .breadcrumb li {
+    background-color: #095385;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  li:first-child {} li.active ~ li {
+    background-color: #f5f5f5;
+  
+  }
+ li.active ~ li:after {
+    border-right-color: #f5f5f5;
+  }
+  li.active ~ li:before {
+    border-right-color: #095385;
+  }
+  li.active ~ li span {
+    color: #095385;
+  }

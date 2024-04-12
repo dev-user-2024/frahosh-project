@@ -1,0 +1,15 @@
+.bg_btn {
+  width: 433px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  width: 320px;
+  height: 48px;
+  left: 674px;
+  top: 690px;
+  margin-top: 3rem;
+  background: #1d9bf0;
+  border-radius: 10px;
+}

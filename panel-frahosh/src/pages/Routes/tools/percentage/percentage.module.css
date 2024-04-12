@@ -1,0 +1,135 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 30px;
+}
+.sectiontop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.sectiontwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.sectionthree {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.inputs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 80px;
+}
+.inputsi {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: auto;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 80px;
+  flex-direction: column;
+  
+}
+.inputsi input {
+  width: 207px;
+  height: 48px;
+}
+.chartdiv{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chart{
+    width: 350px;
+    height: 350px;
+}
+
+.inputs input::-webkit-outer-spin-button,
+.inputs input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.inputs input[type="number"]:disabled,
+.inputsi input[type="number"]:disabled {
+  border: 0.5px solid #1d9bf0;
+  background: #fafafa;
+}
+.input {
+  border-radius: 10px;
+  border: 0.5px solid #828282;
+  display: flex;
+  width: 433px;
+  height: 48px;
+  padding: 12px 12px 12px 20px;
+  gap: 8px;
+  margin-top: 10px;
+}
+.checkboxdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 285px;
+}
+.checkboxdiv label {
+  margin-right: -20px;
+}
+.check {
+  width: 80%;
+  height: 2em;
+}
+@media (max-width: 1200px) {
+  .inputs {
+    justify-content: center;
+  }
+  .input {
+    border-radius: 10px;
+    border: 0.5px solid #828282;
+    display: flex;
+    width: 320px;
+    height: 48px;
+    padding: 12px 12px 12px 20px;
+    gap: 8px;
+    margin-top: 10px;
+  }
+  .checkboxdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+  }
+  .checkboxdiv label {
+    margin-right: -20px;
+  }
+
+}
+@media (max-width: 700px) {
+  .sectionthree{
+    flex-direction: column-reverse;
+    
+  }
+  .inputsi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

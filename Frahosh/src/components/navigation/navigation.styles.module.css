@@ -1,0 +1,125 @@
+.navigationContainer {
+  height: auto;
+  width: 100%;
+}
+.navigation {
+  max-width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 65px 0px;
+  font-size: 14px;
+  margin: 0 auto;
+  transition: all 0.5s;
+  height: 72px;
+}
+
+.navLinkContainer {
+  height: 53px;
+  display: flex;
+  gap: 38px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navLink {
+  height: 55px;
+  display: flex;
+  align-items: end;
+  cursor: pointer;
+  color: #ffffff;
+}
+.navLinkm {
+  height: 55px;
+  cursor: pointer;
+  color: #ffffff;
+  display: none;
+}
+.navLinkms {
+  height: 55px;
+  cursor: pointer;
+  color: #ffffff;
+  display: none;
+}
+
+.navLink:nth-child(3) {
+  color: #faff02;
+}
+
+.navBtnLoginContainer {
+  padding-top: 75px;
+}
+.navLinkbutton{
+  direction:ltr;
+  color: #ffffff !important;
+  font-size: 14px;
+  margin-bottom: -35px !important;
+}
+.menucontainer{
+  border-radius: 30px;
+}
+.menubody{
+  font-size: 14px;
+  padding: 15px 30px 15px 40px;
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(0.25turn, rgba(221, 221, 221, 0) 0%, #DDDDDD 47.92%,rgba(221, 221, 221, 0) 100%);
+  border-image-slice: 1;
+  width:100%;
+}
+.menubodylast{
+  font-size: 14px;
+  padding: 15px 30px 15px 40px;
+  border-bottom: 0px;
+}
+@media only screen and (max-width: 1200px) {
+  .navigation {
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: auto;
+  }
+  .navBtnLoginContainer {
+    padding-top: 0px;
+  }
+  .btnmenu{
+    margin-top: 15px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .navigationContainer {
+    height: auto;
+    width: 100%;
+  }
+  .navLink {
+    display: none;
+  }
+  .navLinkm {
+    display: flex;
+    align-items: center;
+  }
+  .navigation {
+    height: 150px;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 0px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .navLinkContainer{
+    display: none;
+  }
+  .navLinkms {
+    display: flex;
+    align-items: center;
+  }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .navigation {
+    font-size: 12px;
+  }
+}
+
+

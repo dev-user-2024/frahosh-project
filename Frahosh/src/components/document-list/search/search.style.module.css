@@ -1,0 +1,26 @@
+.sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.bg_search {
+    width: 1140px;
+height: 128px;
+background: rgba(29, 155, 240, 0.03);
+border: 0.5px solid #1D9BF0;
+backdrop-filter: blur(4px);
+border-radius: 15px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+}
+
+
+@media only screen and (max-width:700px) {
+    .bg_search {
+        flex-direction: column;
+    }
+    
+}

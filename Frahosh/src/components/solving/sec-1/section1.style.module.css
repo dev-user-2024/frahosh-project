@@ -1,0 +1,22 @@
+.sec1_bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+  }
+  
+  .sec1 {
+    width: 90%;
+    height: fit-content;
+  }
+  
+  @media only screen and (max-width : 1200px) {
+    .sec1{
+        height: fit-content;
+        width: 100%;
+    }
+    .img{
+        transform: scale(0.8);
+    }
+  }

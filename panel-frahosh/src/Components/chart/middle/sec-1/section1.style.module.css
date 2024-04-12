@@ -1,0 +1,59 @@
+.chart_bg{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.linechart_bg {
+    width: 40%;
+}
+
+.barchart_bg {
+    width: 40%;
+}
+.bg_pic {
+    position: relative;
+}
+.text_pic {
+    position: absolute;
+    top: 160px;
+    right: 80px;
+    color: #fafafa;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+@media only screen and (max-width: 900px) {
+    .linechart_bg {
+        height: 15rem;
+        width: 50%;
+    }
+    .barchart_bg {
+        height: 15rem;
+        width: 50%;
+    }
+    .text_pic {
+        display: none;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .linechart_bg {
+        height: 15rem;
+        width: 80%;
+    }
+    .barchart_bg {
+        height: 15rem;
+        width: 80%;
+    }
+
+    .text_pic {
+        display: none;
+    }
+    
+}

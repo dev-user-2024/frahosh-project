@@ -1,0 +1,113 @@
+.signup-box2-bg{
+    background-image: url("../../assests/image/Group\ 568.svg");
+    width: 716px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.signup-box{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    text-align: center;
+}
+.signup-title{
+    height: 38px;
+    margin-top: 28px;
+    font-family: "Rokh-Bold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    color: #1D9BF0;
+    text-align: center;
+}
+.signup-yahoo-box{
+    width: 77px;
+    height: 38px;
+    font-family: 'IRANSansX';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 235%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #430297;
+}
+.signup-google-box{
+    width: 80px;
+    font-family: 'IRANSansX';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 235%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #DD4B39;
+}
+
+.signup-border-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 428px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.signup-border1{
+    background-image: url('../../assests/image/Line\ 3.png');
+    width: 200px;
+    height: 1px;
+}
+.signup-border-text{
+    font-size: 16px;
+    color: #FAFAFA;
+}
+.signup-border2{
+    background-image: url('../../assests/image/Line\ 2.png');
+    width: 200px;
+    height: 1px;
+}
+.signup-border3{
+    background-image: url("../../assests/image/Line\ 1.png");
+    width: 428px;
+    height: 1px;
+}
+.signup-check-box{
+    width: 20px;
+    height: 24px;
+    cursor: pointer;
+    outline: 0;
+    border: 1px solid #FAFAFA;
+    border-radius: 5px;
+    margin-left: 11px;
+    background: #040C1A !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.signup-check-box:checked{
+    background: #1D9BF0 !important;
+}
+.signup-check-box:checked ~ .checkbox_sign::after{
+    display: block;
+}
+.signup-input-style{
+    border: 1px solid #828282;
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+    font-family: "IRANSansX" !important;
+    padding: 0 8px;
+    margin-right: -5px;
+  }
+  @media screen and (min-width:900px) {
+    .signup-box1-bg{
+        background: #040C1A;
+        border-radius: 50px;
+    
+    }
+}

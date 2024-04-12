@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+body {
+  font-family: "IRANSansX" !important;
+}
+
+.light-body {
+  background: var(--bg-admin, linear-gradient(180deg, #DEE4E9 0%, #F4F4F4 91.67%));
+}
+.dark-body{
+  background: var(--dark-bg, linear-gradient(180deg, #102534 0%, #08141D 91.67%));
+}
+.input-style{
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid #828282;
+  border-radius: 10px;
+  height: 48px;
+  font-family: "IRANSansX" !important;
+  padding: 0 8px;
+}
+input{
+  box-sizing: border-box;
+}
+
+.input-style:focus {
+  border: 1px solid #406f8e;
+  outline: none; /* Remove the default browser focus outline */
+}
+.textarea{
+  font-family: "IRANSansX";
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid  #828282;
+  background: #fff;
+  box-sizing: border-box;
+
+}
+.textarea:focus{
+  border: 1px solid  #095385;
+  outline: none;
+}
+@media only screen and (max-width: 600px) {
+  p {
+    font-size: small !important;
+  }
+}

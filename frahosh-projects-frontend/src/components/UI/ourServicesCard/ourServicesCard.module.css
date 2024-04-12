@@ -1,0 +1,23 @@
+.ourServices {
+  width: 269px;
+  /* height: 264px; */
+  padding: 16px;
+  background: #F9FCFD;
+}
+
+
+.ourServices_content {
+    border: 1px solid #066B81;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 22px;
+    gap: 30px;
+}
+.ourServices_content p{
+  -webkit-text-fill-color: transparent;
+  background-clip: text !important;
+  
+}
+

@@ -1,0 +1,276 @@
+.login{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.login_card{
+    margin: 90px 70px;
+    width: 1140px;
+height: 665px;
+background: #040C1A;
+/* filter: drop-shadow(20px 30px 35px rgba(0, 0, 0, 0.07)); */
+border-radius: 50px;
+}
+.section1{
+    width: 428px;
+    height: 612px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.section2{
+    position: relative;
+    width: 716px;
+    height: 665px;
+}
+.section2_pic1{
+    position: absolute;
+width: 378px;
+height: 556px;
+left: 24px;
+top: 73px;
+}
+.section2_bg{
+    position: absolute;
+    background-image: url('../../assets/image/Group\ 568.svg');
+    background-size: cover;
+    width: 716px;
+height: 665px;
+}
+.title{
+    width: 160px;
+height: 38px;
+margin-top: 28px;
+font-family: "Rokh-Bold";
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 38px;
+text-align: right;
+font-feature-settings: 'ss01' on, 'calt' off, 'rclt' off;
+
+color: #1D9BF0;
+margin-bottom: 48px;
+
+}
+.border_section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 428px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+.border1{
+    background-image: url('../../assets//image/Line\ 3.png');
+    width: 200px;
+    height: 1px;
+}
+.border_text{
+    font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 32px;
+
+display: flex;
+align-items: center;
+text-align: right;
+font-feature-settings: 'ss02' on;
+
+
+color: #FAFAFA;
+}
+.border2{
+    background-image: url('../../assets//image/Line\ 2.png');
+    width: 200px;
+    height: 1px;
+}
+.gmail_btn_text{
+    width: 80px;
+height: 38px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 235%;
+/* identical to box height, or 38px */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #DD4B39;
+}
+.gmail_btn_pic{
+    height: 24px;
+width: 24px;
+}
+.yahoo_btn_text{
+    width: 77px;
+height: 38px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 235%;
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #430297;
+
+}
+.yahoo_btn_pic{
+    height: 24px;
+    width: 24px;
+}
+.input1{
+    display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 12px 12px 12px 20px;
+gap: 8px;
+background: #040C1A;
+
+width: 388px;
+height: 48px;
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 235%;
+/* or 33px */
+
+display: flex;
+align-items: center;
+text-align: right;
+font-feature-settings: 'ss02' on;
+color: #FAFAFA;
+
+border: 0.5px solid #FAFAFA;
+border-radius: 10px;
+}
+.input2{
+    display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 12px 12px 12px 20px;
+gap: 8px;
+background: #040C1A;
+
+width: 388px;
+height: 48px;
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 235%;
+/* or 33px */
+margin-top: 40px;
+margin-bottom: 22px;
+display: flex;
+align-items: center;
+text-align: right;
+font-feature-settings: 'ss02' on;
+
+
+color: #FAFAFA;
+
+border: 0.5px solid #FAFAFA;
+border-radius: 10px;
+}
+.checkbox{
+    width: 24px;
+height: 24px;
+cursor: pointer;
+outline: 0;
+border: 1px solid #FAFAFA;
+border-radius: 5px;
+margin-left: 11px;
+background: #040C1A !important;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+}
+.checkbox_text{
+    font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #FAFAFA;
+}
+.login_withPassword{
+    width: 152px;
+height: 32px;
+margin-top: 21px;
+margin-bottom: 5px;
+
+/* body-large */
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 32px;
+/* identical to box height, or 200% */
+
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'ss02' on;
+
+color: #1D9BF0 !important;
+}
+.border3{
+    background-image: url("../../assets/image/Line\ 1.png");
+    width: 428px;
+    height: 1px;
+}
+.makeUser{
+    font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 32px;
+/* identical to box height, or 200% */
+display: flex;
+flex-direction: row;
+align-items: center;
+text-align: right;
+font-feature-settings: 'ss02' on;
+
+color: #FAFAFA;
+}
+.makeUser_link{
+    font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 32px;
+/* identical to box height, or 200% */
+
+display: flex;
+align-items: center;
+text-align: right;
+font-feature-settings: 'ss02' on;
+color: #1D9BF0;
+
+
+}

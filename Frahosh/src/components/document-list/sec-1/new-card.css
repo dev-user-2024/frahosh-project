@@ -1,0 +1,87 @@
+.MainCard{
+width: 90%; 
+}
+.main-card{
+     
+      display: flex !important;
+    justify-content: center !important;
+}
+.card-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3%;
+    margin-top: 5%;
+}
+/* .card-list{
+    display: flex;
+    justify-content: center;
+} */
+.card-link{
+    
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 32px;
+/* identical to box height, or 178% */
+
+text-align: right;
+
+
+/* text-neutral */
+
+color: #828282;
+display: flex;
+flex-direction: row;
+justify-content: end;
+align-items: center;
+}
+.card-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card-item-pic{
+    width: 242px;
+    height: 242px;
+    border-radius: 15px;
+}
+@media only screen and (max-width:1200px) {
+    .card-title{
+        justify-content: center;
+    }
+    .card-link{
+        display: none;
+    }
+    .card-item{
+        width: 214px;
+    }
+    .card-item a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .card-item-pic{
+        width: 214.03px;
+    height: 178px;
+    }
+    .card-item-text{
+        width: 161.54px;
+        height: 27px;
+        left: 37px;
+        top: 5849.07px;
+        font-family: 'IRANSansX';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 193%;
+        align-self: center;
+        padding-right: 7%;
+        text-align: center;
+    }
+}

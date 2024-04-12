@@ -1,0 +1,73 @@
+.container {
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.titels {
+  font-size: 20px;
+  color: #1d9bf0;
+  margin-top: 20px;
+  padding: 0 20px;
+  font-family: Rokh-bold;
+}
+
+.testcontainer {
+  width: 95%;
+  height: 215px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.testcontainer > div {
+  display: flex;
+  flex-basis: calc(50% - 10px);
+  justify-content: center;
+  flex-direction: column;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 60px;
+  gap: 20px;
+}
+.note {
+  font-size: 12px;
+  color: rgba(4, 12, 26, 1);
+  margin-bottom: 100px;
+}
+.othersessions {
+  margin: 0 auto;
+  width: 95%;
+  height: 81px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  padding-left: 100px;
+  font-size: 14px;
+  font-weight: 500;
+}
+@media only screen and (max-width: 600px) {
+  .othersessions {
+    width: 100%;
+    padding: 10px;
+    font-size: 13.5px;
+  }
+  .testcontainer {
+    width: 100%;
+    padding: 5px;
+    font-size: 13.5px;
+  }
+}

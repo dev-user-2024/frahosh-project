@@ -1,0 +1,12 @@
+.paper{
+    display: flex;
+    direction: row;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.DoneConsultantsText{
+    color:#6C6C6C;
+    ;
+  }

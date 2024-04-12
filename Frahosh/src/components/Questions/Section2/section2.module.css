@@ -1,0 +1,30 @@
+.Section1{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.podcastbanner {
+    max-width: 100%;
+    max-height: 100%;
+}
+.imagediv{
+    display: flex;
+    justify-content: center;
+    margin-top:-50px;
+}
+
+@media only screen and (max-width: 700px) {
+    .Section1{
+        margin-top: 100px;
+    }
+    .podcastbanner {
+
+        /* height: 100vh; */
+    }
+    .imagediv{
+        transform: scale(0.55);
+    }
+}

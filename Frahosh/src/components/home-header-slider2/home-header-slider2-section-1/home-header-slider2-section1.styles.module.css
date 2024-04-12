@@ -1,0 +1,60 @@
+.section1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section1Text {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  margin: 35px 150px 35px 0;
+  font-family: "IRANSansX";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 50px;
+  color: #ffff;
+}
+
+.section1Texth1 {
+  font-family: "Rokh-SemiBold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 49px;
+  color: #faff02;
+}
+
+.header-section-1-text ul li {
+  list-style: none;
+  margin-top: 26px;
+}
+
+
+.header-section-1-pic {
+  width: 595px;
+  height: 551px;
+}
+.section1Pic{
+  height: 600px;
+}
+@media only screen and (max-width: 900px) {
+  .section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .section1Pic{
+    height: 350px;
+  }
+  .section1Text {
+    margin: 15px 20px 10px 20px; 
+    text-align: center;
+    line-height: 30px;
+    font-size: 17px;
+  }
+  .section1TextButtonContainer{
+    margin: auto;
+  }
+}

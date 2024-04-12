@@ -1,0 +1,73 @@
+.avatar{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    filter: blur(1.5px);
+    
+}
+.uploadImage{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.profileImgContainer{
+    background-image:url("../../../assests/image/profilestudentlogo.svg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    min-height: 200px;
+    min-width: 300px;
+    position: relative;
+}
+.profileImgContainer div{
+    margin-right: 70px;
+    position: relative;
+}
+.profileImgContainer div input{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+
+.studentEditProfileGrid input{
+    background: #FAFAFA;
+    border: 0.5px solid #1D9BF0;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+
+}
+.studentEditProfileGrid{
+    display: flex;
+    align-items: center;
+}
+.text{
+    color: #6C6C6C;
+}
+
+
+
+
+.calender{
+    width: 100%;
+    border-radius: 10px;
+}
+.calender{
+    background: #FAFAFA;
+    border: 0.5px solid #1D9BF0;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+}
+.calenderContainer{
+    width: 100%;
+}

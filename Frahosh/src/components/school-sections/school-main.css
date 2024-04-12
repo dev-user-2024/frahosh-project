@@ -1,0 +1,7 @@
+.school-main {
+    display: flex;
+    flex-direction: column;
+    gap: 210px;
+    padding: 0px 60px 0 60px;
+  }
+  

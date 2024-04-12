@@ -1,0 +1,25 @@
+.swiper-button-next{
+    position: absolute;
+    top: 88px;
+    left: 50px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    color: white;
+    background: #1D9BF0;
+}
+.swiper-button-next:after {
+    font-size: 19px !important;
+}
+.swiper-button-prev {
+    position: absolute;
+    top: 88px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    color: white;
+    background: #1D9BF0;
+}
+.swiper-button-prev:after {
+    font-size: 19px !important;
+}

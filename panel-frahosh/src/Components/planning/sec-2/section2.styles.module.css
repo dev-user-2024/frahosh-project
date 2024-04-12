@@ -1,0 +1,17 @@
+.bg_sec {
+    width: 1000px;
+height: 1557px;
+background: rgba(250, 250, 250, 1);
+
+}
+
+.sec {
+    padding-top: 35px;
+    padding-inline: 30px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .bg_sec {
+        width: 100%;
+    }
+}

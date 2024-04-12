@@ -1,0 +1,6 @@
+.header_box{
+  width: 100%;
+  height: 250px;
+  background-image: url("../../assests/image/frame32.png");
+  background-size: cover
+}

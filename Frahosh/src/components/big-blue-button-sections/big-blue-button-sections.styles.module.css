@@ -1,0 +1,18 @@
+.sectionsContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+  margin:0 auto;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1200px) {
+  .sectionsContainer{
+    max-width: 1140px;
+  }
+}

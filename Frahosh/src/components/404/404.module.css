@@ -1,0 +1,131 @@
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #071E47 0%, #000A1C 54.04%);
+    width: 100%;
+    color: #FAFAFA;
+    height: initial;
+}
+
+.Container h1 {
+    background: #062140;
+    /* background: -webkit-linear-gradient(#eee, #333); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Rokh-Bold";
+    font-weight: 600;
+    font-size: 500px;
+
+}
+
+.section1 {
+    text-align: center;
+    color: #FAFAFA;
+    font-family: "Rokh-Bold";
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 1.3px;
+    line-height: 55px;
+    position: relative;
+    bottom:450px;
+}
+.section2 {
+    text-align: center;
+    color: #FAFAFA;
+    font-family: "Rokh-Bold";
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1.3px;
+    line-height: 55px;
+    position: relative;
+    bottom: 450px;
+    margin-top: 30px;
+}
+.section3 {
+    position: relative;
+    bottom: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+.section4 {
+    position:relative;
+    bottom: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    height: 29px;
+
+}
+
+@media only screen and (max-width: 800px) {
+    .Container h1 {
+        font-size: 300px;
+        margin-top: 50px;
+    }
+    .section1{
+        bottom: 250px;
+        font-size: 28px;
+    }
+    .section2{
+        bottom: 250px;
+        font-size: 18px;
+    }
+    .section3{
+        bottom: 250px;
+        margin-top: 30px;
+    }
+    .section4{
+        bottom: 150px;
+        height: 228px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .Container h1 {
+        font-size: 220px;
+        margin-top: 50px;
+    }
+    .section1{
+        bottom: 250px;
+        font-size: 20px;
+    }
+    .section2{
+        bottom: 250px;
+        font-size: 16px;
+    }
+    .section3{
+        bottom: 250px;
+        margin-top: 30px;
+        transform: scale(0.9);
+    }
+    .section4{
+        bottom: 150px;
+        height: 228px;
+    }
+}@media only screen and (max-width: 340px) {
+    .Container h1 {
+        font-size: 180px;
+        margin-top: 50px;
+    }
+    .section1{
+        bottom: 250px;
+        font-size: 20px;
+    }
+    .section2{
+        bottom: 250px;
+        font-size: 17px;
+    }
+    .section3{
+        bottom: 250px;
+        margin-top: 30px;
+        transform: scale(0.85);
+    }
+    .section4{
+        bottom: 150px;
+        height: 228px;
+    }
+}

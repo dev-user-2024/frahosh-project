@@ -1,0 +1,253 @@
+.cardContainer {
+  width: 353px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+
+  background: #fafafa;
+  box-shadow: 20px 30px 35px rgba(0, 0, 0, 0.07);
+  border-radius: 50px;
+  transition: all 0.3s ;
+}
+
+.cardHeader {
+  width: 100%;
+  height: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px 50px 0px 0px;
+  background-color: #0972b9;
+  color: #fafafa;
+
+  font-family: "Rokh-SemiBold";
+  font-style: normal;
+  font-size: 30px;
+  transition: all 0.3s ;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  direction: rtl;
+  gap: 40px;
+  text-align: justify;
+  padding: 27px 48px 39px 48px;
+
+  font-family: "IRANSansX";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 50px;
+  transition: all 0.3s ;
+}
+.cardContent h3 {
+  font-family: "Rokh-SemiBold";
+  font-size: 30px;
+  transition: all 0.3s ;
+}
+
+/* Right Plans */
+.planRight .cardHeader {
+  background-color: #0972b9;
+}
+.planRight .cardContent {
+  color: #0972b9;
+}
+
+/* Center Plans */
+.planCenter {
+  transform: scale(1.1);
+  transition: all 0.3s ;
+}
+.planCenter .cardHeader {
+  height: 140px;
+  background-color: #1d9bf0;
+  font-family: "Rokh-Bold";
+  transition: all 0.3s ;
+}
+.planCenter .cardContent {
+  gap: 30px;
+  color: #1d9bf0;
+  padding: 10px 50px 47px 50px;
+  transition: all 0.3s ;
+}
+.planCenter .cardContent h3 {
+  font-family: "Rokh-Bold";
+  transition: all 0.3s ;
+}
+
+/* Left Plans */
+.planLeft .cardHeader {
+  background-color: #82ccff;
+  color: #040c1a;
+}
+.planLeft .cardContent {
+  color: #040c1a;
+}
+
+@media only screen and (max-width: 470px) {
+  .cardContainer {
+    width: 70%;
+
+    box-shadow: 7px 12px 15px rgba(0, 0, 0, 0.07);
+  }
+  .cardHeader {
+    height: 100px;
+    font-family: "Rokh-SemiBold";
+  }
+  .cardHeader {
+    height: 105px;
+    font-size: 21px;
+  }
+  
+  .cardContent {
+    gap: 30px;
+    text-align: center;
+    padding: 15px 32px 30px 32px;
+  
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 235%;
+  }
+  .cardContent h3 {
+    font-size: 26px;
+  }
+  
+  /* Center Plans */
+  .planCenter {
+    transform: scale(1.05);
+  }
+  .planCenter .cardHeader {
+    height: 110px;
+    font-size: 24px;
+  }
+  .planCenter .cardContent {
+    gap: 30px;
+    color: #1d9bf0;
+    padding: 15px 47px 34px 47px;
+  }
+  .planCenter .cardContent h3 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 470px) {
+  .cardContainer {
+    width: 55%;
+
+    box-shadow: 7px 12px 15px rgba(0, 0, 0, 0.07);
+  }
+  
+  .cardHeader {
+    height: 105px;
+    font-size: 21px;
+  }
+
+
+  
+  .cardContent {
+    gap: 30px;
+    text-align: center;
+    padding: 15px 32px 30px 32px;
+  
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 235%;
+  }
+  .cardContent h3 {
+    font-size: 26px;
+  }
+  
+  /* Center Plans */
+  .planCenter {
+    transform: scale(1.05);
+  }
+  .planCenter .cardHeader {
+    height: 110px;
+    font-size: 24px;
+  }
+  .planCenter .cardContent {
+    gap: 30px;
+    color: #1d9bf0;
+    padding: 15px 47px 34px 47px;
+  }
+  /* .planCenter .cardContent h3 {
+    font-size: 30px;
+  } */
+  
+}
+
+
+
+@media only screen and (min-width: 576px) {
+  .cardContainer {
+    width: 353px;
+
+    box-shadow: 20px 30px 35px rgba(0, 0, 0, 0.07);
+  }
+  
+  .cardHeader {
+    font-size: 28px;
+  }
+  
+  .cardContent {
+    text-align: center;
+
+    font-size: 18px;
+  }
+  .cardContent h3 {
+    font-size: 28px;
+  }
+  
+
+  /* Center Plans */
+  .planCenter {
+    transform: scale(1.07);
+  }
+  .planCenter .cardHeader {
+    height: 125px;
+    font-size: 28px;
+  }
+  .planCenter .cardContent {
+    gap: 30px;
+    padding: 10px 50px 47px 50px;
+  }
+  
+}
+
+
+@media only screen and (min-width: 1200px) {
+ 
+  .cardHeader {
+    font-size: 30px;
+  }
+  
+  .cardContent {
+    text-align: justify;
+
+    font-size: 20px;
+  }
+  .cardContent h3 {
+    font-size: 30px;
+  }
+
+  /* Center Plans */
+  .planCenter {
+    transform: scale(1.1);
+  }
+  .planCenter .cardHeader {
+    height: 135px;
+   padding-top:10px;
+  }
+  .planCenter .cardContent {
+    gap: 26px;
+    padding: 10px 50px 47px 50px;
+  }
+
+
+}
+

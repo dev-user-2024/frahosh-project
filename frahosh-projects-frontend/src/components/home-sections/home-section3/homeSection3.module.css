@@ -1,0 +1,234 @@
+.homeSection3 {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 199px auto 0 auto;
+
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #000000;
+}
+
+.rtl{
+  direction: rtl ;
+}
+
+.ltr{
+  direction: ltr;
+}
+
+.homeSection3 h2 {
+  font-size: 40px;
+  line-height: 47px;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+
+  /* gradient-cyan */
+
+  background: linear-gradient(92.61deg, #5be2ff 0%, #066b81 108.3%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.homeSection3_zPattern {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 170px;
+}
+
+.z_pattern_container {
+  max-width: 1290px;
+  margin: 0px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.3s;
+}
+
+.z_pattern_container h2 {
+  width: 100%;
+  font-size: 32px;
+  line-height: 38px;
+  text-transform: uppercase;
+  /* gradient-magenta */
+  background: linear-gradient(91.92deg, #e1a4ff 0%, #8d26be 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.z_pattern_container:nth-child(odd) {
+  direction: rtl;
+}
+.z_pattern_container:nth-child(odd) .z_pattern_text {
+  align-items: end;
+  transition: all 0.3s;
+}
+
+.z_pattern_container:nth-child(odd) .z_pattern_ltr .z_pattern_text h2 {
+  transition: all 0.3s;
+}
+
+.z_pattern_container:nth-child(even) {
+  direction: ltr;
+}
+.z_pattern_container2:nth-child(even) {
+  direction: rtl !important;
+}
+.z_pattern_container2:nth-child(odd) {
+  direction: ltr !important ;
+}
+
+.z_pattern_container:nth-child(even) .z_pattern_text {
+  align-items: start;
+  justify-content: start;
+}
+
+
+
+.z_pattern_container:nth-child(even) .zPatternRtlContent {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  transition: all 0.3s;
+}
+
+.z_pattern_container:nth-child(even) .z_pattern_rtl .z_pattern_text h2 {
+  transition: all 0.3s;
+}
+
+.z_pattern_image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 708px;
+  height: 514px;
+}
+
+.z_pattern_container:nth-child(odd) .z_pattern_image{
+  /* background: #DEF4F8;
+  border-radius: 0px 0px 0px 100px; */
+}
+
+.z_pattern_container:nth-child(even) .z_pattern_image{
+  /* background:  #0F0C13;
+  border-radius: 0px 0px 100px 0px; */
+}
+
+/* .z_pattern_container img {
+  width: 416px;
+  height: 403px;
+} */
+
+.zPatternRtlContent {
+  max-width: 1440px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  transition: all 0.3s;
+}
+
+.z_pattern_text {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  /* gap: 15px; */
+  align-items: start;
+
+  transition: all 0.3s;
+}
+
+.z_pattern_text ul{
+  width: 96%;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.z_pattern_text p {
+  transition: all 0.3s;
+}
+
+.bestBooksSection4More{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 1130px) {
+
+  .homeSection3_zPattern {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+  }
+
+
+  .z_pattern_container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .zPatternRtlContent {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0 20px 0;
+  }
+
+  .z_pattern_image{
+    width: 708px;
+    height: 514px;
+    /* background-color: #0F0C13; */
+  }
+
+  .z_pattern_text {
+    width: 80%;
+    gap: 0;
+    align-items: center !important;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .homeSection3 h2 {
+    margin-bottom: 30px;
+  }
+
+  .z_pattern_text h1 {
+    font-weight: 700;
+    font-size: 38px;
+  }
+
+  .z_pattern_text h2 {
+    font-weight: 600;
+    font-size: 18px !important;
+    text-align: center !important;
+  }
+
+  .bestBooksSection4More p {
+    line-height: normal;
+  }
+}
+@media only screen and (max-width: 800px) {
+  /* .z_pattern_container img {
+    width: 250px;
+    height: 300px;
+  } */
+  .z_pattern_image{
+    width: 250px !important;
+    height: 300px !important;
+  }
+  .homeSection3 h2 {
+    font-size: 30px;
+  }
+}

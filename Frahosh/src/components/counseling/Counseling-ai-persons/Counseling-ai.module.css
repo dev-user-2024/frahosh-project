@@ -1,0 +1,61 @@
+.box {
+    font-family: 'Rokh-medium';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    /* color: #1D9BF0; */
+    margin-top: 212px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.card {
+    text-align: center;
+
+}
+
+.box h3 {
+    font-family: "Rokh-Bold";
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 50px;
+    padding-right: 40px;
+
+}
+
+.box p {
+    font-family: "IRANSansX";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    /* color: #040C1A; */
+    margin-top: -20px;
+    margin-right: 30px;
+}
+
+@media only screen and (max-width: 900px) {
+    .lastch {
+        display: none;
+    }
+
+    .box {
+        margin-top: 150px;
+        padding-left: 0px;
+        padding-right: 0px;
+        direction: ltr;
+    }
+
+    .box p {
+        font-size: 17px;
+        margin-right: 15px;
+    }
+    .card{
+        transform: scale(0.8);
+    }
+    .box h3{
+        direction: rtl;
+        font-size: 24px;
+        text-align: center;
+        padding-right: 0px;
+    }
+}

@@ -1,0 +1,45 @@
+.Stopwatch {
+  margin: 0 auto;
+  direction: ltr;
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.Stopwatchdisplay {
+  padding: 200px 0px 100px 0px;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media (max-width: 600px) {
+  .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 50px;
+  }
+  .Stopwatchdisplay {
+    padding: 100px 0px 50px 0px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 340px) {
+  .Stopwatchdisplay {
+    padding: 100px 0px 50px 0px;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

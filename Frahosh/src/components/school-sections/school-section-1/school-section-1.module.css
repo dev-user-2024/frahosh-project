@@ -1,0 +1,63 @@
+.section1{
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 110px;
+    margin: auto;
+}
+.section1-1{
+    max-width: 90%;
+    height: fit-content;
+    display: flex;
+}
+.title{
+    font-family: "Rokh-Bold";
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 49px;
+    /* identical to box height */
+
+    text-align: right;
+    font-feature-settings: 'ss01' on, 'calt' off, 'rclt' off;
+
+    /* Primary */
+
+    color: #1D9BF0;
+}
+.text{
+    width: 100%;
+    height: fit-content;
+    font-family: 'IRANSansX';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 50px;
+    text-align: right;
+    font-feature-settings: 'ss02' on;
+    color: #040C1A;
+}
+@media only screen and (max-width:1200px) {
+    .section1{
+        display: flex;
+        justify-content: center;
+    }
+    .text{
+        width: 100%;
+        height: fit-content;
+    }
+    
+}
+@media only screen and (max-width:500px) {
+    .text{
+        width: 100%;
+        height: fit-content; 
+        font-size: 14px !important;
+        line-height: 35px !important;
+        text-align: center;    
+    }
+    .title{
+        font-weight: 400 !important;
+        font-size: 20px !important;
+        text-align: center;
+    }
+}

@@ -1,0 +1,7 @@
+.zPatternContainer {
+    width: 100%;
+    display: flex;
+    gap: 150px;
+    flex-direction: column;
+    margin: 0 auto;
+  }

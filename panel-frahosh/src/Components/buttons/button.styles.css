@@ -1,0 +1,378 @@
+.button-container {
+  width: 172px;
+  height: 47px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #1d9bf0;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+  color: #fafafa;
+  font-family: "IRANSansX";
+  font-style: normal;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+}
+
+.button-container:hover {
+  transform: scale(1.1);
+}
+
+.navigation-button {
+  width: 130px;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  background-color: #fff;
+  color: #1d9bf0;
+}
+
+.main-section-3-btn {
+  width: 230px;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #fff;
+  color: #1d9bf0;
+  font-family: "IRANSansX";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  text-align: right;
+}
+
+.main-section-3-btn-mob {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  margin-bottom: 10%;
+  width: 215px;
+  height: 40px;
+
+  /* Primary */
+
+  background: #1d9bf0;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.header-section-1-text-button {
+  width: 172px;
+  height: 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  background-color: #fff;
+  color: #1d9bf0;
+}
+
+.btn-login-bg-blue {
+  width: 172px;
+  height: 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  background-color: #1d9bf0;
+  color: #fff;
+}
+
+.school-login-btn {
+  width: 228px;
+  height: 50px;
+  margin-top: 61px;
+
+  /* Primary */
+
+  background: #1d9bf0;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.gmail_login_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 180px;
+  height: 48px;
+  margin-left: 30px;
+  background: #ffeeec;
+  border-radius: 10px;
+}
+
+.yahoo_login_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 180px;
+  height: 48px;
+  background: #eee1ff;
+  border-radius: 10px;
+}
+
+.gmail_login_btn_responsive {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 370px;
+  height: 48px;
+  background: #ffeeec;
+  border-radius: 10px;
+}
+
+.yahoo_login_btn_responsive {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 370px;
+  height: 48px;
+  background: #eee1ff;
+  border-radius: 10px;
+}
+
+.sign_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 65px;
+  gap: 10px;
+  font-family: "IRANSansX";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 235%;
+  color: #fff;
+  width: 388px;
+  height: 48px;
+  background: #1d9bf0;
+  border-radius: 10px;
+}
+
+.start_quiz {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 65px;
+  gap: 10px;
+  font-family: "IRANSansX";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 235%;
+  color: #fff;
+  width: 350px;
+  height: 48px;
+  background: #1d9bf0;
+  border-radius: 10px;
+}
+.survey-cancle{
+  background-color:white;
+  color: #040C1A;
+  font-family: "IRANSansX";
+  font-style: normal;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+}
+.disable {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 65px;
+  gap: 10px;
+  font-family: "IRANSansX";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 235%;
+  color: #fff;
+  width: 350px;
+  height: 48px;
+  background: #828282;
+  border-radius: 10px;
+  cursor: not-allowed;
+}
+.disable:hover{
+  transform: scale(0.9);
+}
+.stop {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 65px;
+  gap: 10px;
+  font-family: "IRANSansX";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 235%;
+  color: #1d9bf0;
+  width: 350px;
+  height: 48px;
+  background: #EEEEEE;
+  border-radius: 10px;
+  border: 2px solid #1d9bf0;
+}
+.stop:hover{
+  background: #1d9bf0;
+  color: #fff;
+}
+.long {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 65px;
+  gap: 10px;
+  font-family: "IRANSansX";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 235%;
+  color: #fff;
+  width: 547px;
+  height: 48px;
+  background: #1d9bf0;
+  border-radius: 10px; }
+.little{
+  width: 80px;
+  font-size: 14px;
+}
+.littlenum{
+  width: 50px;
+}
+.littlev{
+  width: 80px;
+}
+
+@media only screen and (max-width: 600px) {
+  .long {
+    width: 90%;
+    font-size: 16px;
+  }
+  .yahoo_login_btn_responsive,
+  .gmail_login_btn_responsive {
+    width: 290px;
+  }
+  .disable {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 65px;
+    gap: 10px;
+    font-family: "IRANSansX";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 235%;
+    color: #fff;
+    width: 280px;
+    height: 48px;
+    background: #828282;
+    border-radius: 10px;
+    cursor: not-allowed;
+  }
+  .start_quiz {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 65px;
+    gap: 10px;
+    font-family: "IRANSansX";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 235%;
+    color: #fff;
+    width: 280px;
+    height: 48px;
+    background: #1d9bf0;
+    border-radius: 10px;
+  }
+  .stop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 65px;
+    gap: 10px;
+    font-family: "IRANSansX";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 235%;
+    color: #1d9bf0;
+    width: 280px;
+    height: 48px;
+    background: #EEEEEE;
+    border-radius: 10px;
+    border: 2px solid #1d9bf0;
+  }
+}
+.start{
+  width: 30%;
+}
+.reserve{
+  width: 100%;
+}
+.add{
+  width: 34%;
+}
+.validation{
+  width: 100%;
+}
+.Add{
+  width: 20%;
+}
+.saveStuDescription{
+width:207px;
+}
+.cancelStuDescription{
+border:1px solid  #1d9bf0;
+background-color:#fafafa;
+color:  #1d9bf0;
+margin-right: 1rem;
+}
+@media only screen and (max-width: 1200px) {
+  .long {
+    width: 80%;
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,77 @@
+
+.Countdown {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  flex-direction: column;
+  direction: ltr;
+  margin-top: 100px;
+}
+
+.Countdowndisplay {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.Countdowndisplay button {
+  margin: 0 15px;
+  border-radius: 2px;
+  padding: 4px 16px;
+  color: #ffffff;
+  font-size: 25px;
+  transition: 0.1s ease-in;
+}
+.Countdowndisplay button:hover {
+  background-color: #106ba3;
+}
+.Countdownlabel {
+  font-size: 30px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.Countdowntime {
+  font-size: 50px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 50px;
+}
+@media (max-width: 600px) {
+  .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 340px) {
+.Countdownlabel {
+  font-size: 23px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.Countdowntime {
+  font-size: 35px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Countdowndisplay button {
+  margin: 0 0px;
+  border-radius: 2px;
+  padding: 4px 16px;
+  color: #ffffff;
+  font-size: 25px;
+  transition: 0.1s ease-in;
+}
+}

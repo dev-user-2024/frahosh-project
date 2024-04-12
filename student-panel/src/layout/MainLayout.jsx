@@ -1,0 +1,29 @@
+import React from 'react';
+import { Outlet } from 'react-router-dom';
+import { Grid } from '@mui/material';
+import Sidebar from '../Components/sidebar/Sidebar';
+import AppbarContainer from "../Components/navbar/AppbarContainer";
+
+const MainLayout = () => {
+    return (
+      <Grid container spacing={0} mb={0}>
+      <Grid item md={3} lg={2} >
+      <Sidebar />
+    </Grid>
+    <Grid
+      item
+      overflow={{ Y: "scroll" }}
+      xs={12}
+      md={9}
+      lg={10}
+      sx={{ px: 3}}
+    >
+    <AppbarContainer/>
+      <Outlet/>
+    </Grid>
+          
+      </Grid>
+    );
+};
+
+export default MainLayout;

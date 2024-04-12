@@ -1,0 +1,38 @@
+.container{
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.topsec{
+    display: flex;
+
+    justify-content: center;
+}
+.left{
+    width: 20%;
+    height: 600px;
+}
+.right{
+    width: 80%;
+}
+.title {
+    align-self: start;
+    font-family: "Rokh-medium";
+    font-size: 22px;
+    color: #1d9bf0;
+    margin-bottom: 10px;
+  }
+
+@media only screen and (max-width: 1050px) {
+    .topsec{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+        height: auto;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    .right{
+        width: 100%;
+    }
+}

@@ -1,0 +1,192 @@
+Date : 2022-12-24 00:11:11
+Directory : /home/mmd/projects/flutter/Farahosh
+Total : 92 files,  2157 codes, -38 comments, 154 blanks, all 2273 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Dart     |         91 |      2,158 |        -38 |        155 |      2,275 |
+| XML      |          1 |         -1 |          0 |         -1 |         -2 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                         | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                            |         92 |      2,157 |        -38 |        154 |      2,273 |
+| android                                                                                                                      |          1 |         -1 |          0 |         -1 |         -2 |
+| android/app                                                                                                                  |          1 |         -1 |          0 |         -1 |         -2 |
+| android/app/src                                                                                                              |          1 |         -1 |          0 |         -1 |         -2 |
+| android/app/src/main                                                                                                         |          1 |         -1 |          0 |         -1 |         -2 |
+| lib                                                                                                                          |         91 |      2,158 |        -38 |        155 |      2,275 |
+| lib/app                                                                                                                      |         90 |      2,136 |        -37 |        154 |      2,253 |
+| lib/app/presentation                                                                                                         |         89 |      2,107 |        -37 |        146 |      2,216 |
+| lib/app/presentation/blocs                                                                                                   |         16 |        325 |          0 |         99 |        424 |
+| lib/app/presentation/blocs/leitner                                                                                           |          4 |         97 |          0 |         28 |        125 |
+| lib/app/presentation/blocs/leitner/new_leitner                                                                               |          2 |         28 |          0 |          9 |         37 |
+| lib/app/presentation/blocs/leitner_box                                                                                       |          2 |         45 |          0 |         14 |         59 |
+| lib/app/presentation/blocs/new_leitner                                                                                       |          2 |         28 |          0 |          9 |         37 |
+| lib/app/presentation/blocs/settings                                                                                          |          1 |          1 |          0 |          1 |          2 |
+| lib/app/presentation/blocs/splash                                                                                            |          1 |         -1 |          0 |          0 |         -1 |
+| lib/app/presentation/blocs/tickeight                                                                                         |          2 |         70 |          0 |         20 |         90 |
+| lib/app/presentation/blocs/tickeights                                                                                        |          2 |         45 |          0 |         15 |         60 |
+| lib/app/presentation/blocs/wordnotes                                                                                         |          2 |         40 |          0 |         12 |         52 |
+| lib/app/presentation/modules                                                                                                 |         14 |        268 |        -16 |         14 |        266 |
+| lib/app/presentation/modules/const                                                                                           |          2 |         24 |          6 |          6 |         36 |
+| lib/app/presentation/modules/extensions                                                                                      |          1 |          3 |          0 |          0 |          3 |
+| lib/app/presentation/modules/widgets                                                                                         |         10 |        240 |        -22 |          8 |        226 |
+| lib/app/presentation/modules/widgets/buttons                                                                                 |          2 |         17 |          0 |         -1 |         16 |
+| lib/app/presentation/modules/widgets/chart                                                                                   |          2 |        177 |          2 |         12 |        191 |
+| lib/app/presentation/modules/widgets/textField                                                                               |          2 |          6 |          0 |          1 |          7 |
+| lib/app/presentation/router                                                                                                  |          1 |          8 |         16 |          9 |         33 |
+| lib/app/presentation/screens                                                                                                 |         57 |      1,556 |        -24 |         28 |      1,560 |
+| lib/app/presentation/screens/School_handout                                                                                  |          3 |       -165 |         -2 |         -9 |       -176 |
+| lib/app/presentation/screens/calculator                                                                                      |          1 |          8 |          0 |          0 |          8 |
+| lib/app/presentation/screens/consultant                                                                                      |         11 |        190 |         -6 |         10 |        194 |
+| lib/app/presentation/screens/consultant/consultantBottomSheet                                                                |          1 |        128 |          1 |          2 |        131 |
+| lib/app/presentation/screens/consultant/consultant_chat                                                                      |          2 |        113 |          0 |          7 |        120 |
+| lib/app/presentation/screens/consultant/consultant_page1                                                                     |          1 |         -1 |          0 |          0 |         -1 |
+| lib/app/presentation/screens/consultant/consultant_page2                                                                     |          1 |         -1 |          0 |          0 |         -1 |
+| lib/app/presentation/screens/consultant/consultant_page3                                                                     |          1 |        441 |          3 |         16 |        460 |
+| lib/app/presentation/screens/consultant/finished                                                                             |          1 |          7 |          0 |          0 |          7 |
+| lib/app/presentation/screens/consultant/reserved                                                                             |          1 |          6 |          0 |          0 |          6 |
+| lib/app/presentation/screens/leinter                                                                                         |          4 |         89 |         -5 |         -6 |         78 |
+| lib/app/presentation/screens/leinter/leinter1                                                                                |          2 |         43 |         -5 |         -1 |         37 |
+| lib/app/presentation/screens/leinter/leinter2                                                                                |          1 |         16 |          0 |         -1 |         15 |
+| lib/app/presentation/screens/leinter/leinter3                                                                                |          1 |         30 |          0 |         -4 |         26 |
+| lib/app/presentation/screens/main                                                                                            |          1 |         23 |          0 |          1 |         24 |
+| lib/app/presentation/screens/messenger                                                                                       |          1 |       -139 |         -9 |         -4 |       -152 |
+| lib/app/presentation/screens/picsgallery                                                                                     |          2 |         -9 |         -5 |         -6 |        -20 |
+| lib/app/presentation/screens/podcast                                                                                         |          2 |        -28 |          0 |          1 |        -27 |
+| lib/app/presentation/screens/podcast/podcast_1                                                                               |          1 |          4 |          0 |          1 |          5 |
+| lib/app/presentation/screens/podcast/podcast_5                                                                               |          1 |        -32 |          0 |          0 |        -32 |
+| lib/app/presentation/screens/profile                                                                                         |          2 |        119 |          3 |          3 |        125 |
+| lib/app/presentation/screens/profile/profile_coin                                                                            |          1 |         -2 |          0 |          0 |         -2 |
+| lib/app/presentation/screens/profile/profile_coin/profileMain_page                                                           |          1 |         -2 |          0 |          0 |         -2 |
+| lib/app/presentation/screens/school                                                                                          |         20 |      1,490 |         11 |         53 |      1,554 |
+| lib/app/presentation/screens/school/about                                                                                    |          1 |         39 |          0 |          0 |         39 |
+| lib/app/presentation/screens/school/handout                                                                                  |          8 |        200 |          2 |         14 |        216 |
+| lib/app/presentation/screens/school/handout/handoutPdf                                                                       |          1 |         90 |          1 |          6 |         97 |
+| lib/app/presentation/screens/school/handout/handoutVideo                                                                     |          1 |         91 |          1 |          3 |         95 |
+| lib/app/presentation/screens/school/handout/main                                                                             |          1 |         80 |          1 |          9 |         90 |
+| lib/app/presentation/screens/school/handout/mine                                                                             |          1 |        146 |          1 |          5 |        152 |
+| lib/app/presentation/screens/school/handout/others                                                                           |          1 |        104 |          1 |          5 |        110 |
+| lib/app/presentation/screens/school/messenger                                                                                |          2 |        163 |          0 |          7 |        170 |
+| lib/app/presentation/screens/school/messenger/chat                                                                           |          1 |         98 |          0 |          4 |        102 |
+| lib/app/presentation/screens/school/schedule                                                                                 |          1 |        529 |          2 |         11 |        542 |
+| lib/app/presentation/screens/school/score                                                                                    |          2 |         23 |         -1 |          2 |         24 |
+| lib/app/presentation/screens/school/score/diagram                                                                            |          1 |         53 |          0 |          2 |         55 |
+| lib/app/presentation/screens/school/test                                                                                     |          4 |        170 |          0 |          5 |        175 |
+| lib/app/presentation/screens/school/test/avg                                                                                 |          1 |         78 |          0 |          2 |         80 |
+| lib/app/presentation/screens/school/test/done                                                                                |          1 |         14 |          0 |          0 |         14 |
+| lib/app/presentation/screens/school/test/mid                                                                                 |          1 |         78 |          0 |          2 |         80 |
+| lib/app/presentation/screens/school/tuition                                                                                  |          1 |        345 |          8 |         14 |        367 |
+| lib/app/presentation/screens/setting                                                                                         |          3 |        257 |          0 |          6 |        263 |
+| lib/app/presentation/screens/setting/chooseColor                                                                             |          1 |        227 |          0 |          6 |        233 |
+| lib/app/presentation/screens/setting/fingerprint_dialog                                                                      |          1 |         -1 |          0 |          0 |         -1 |
+| lib/app/presentation/screens/tickeight                                                                                       |          1 |         12 |          0 |         -3 |          9 |
+| lib/app/presentation/screens/tickit                                                                                          |          2 |         41 |         -4 |         -4 |         33 |
+| lib/app/presentation/screens/tickit/createcart                                                                               |          1 |         21 |          0 |         -1 |         20 |
+| lib/app/presentation/screens/tools                                                                                           |          1 |         -1 |          0 |          0 |         -1 |
+| lib/app/presentation/screens/wallet                                                                                          |          1 |         -1 |          0 |          0 |         -1 |
++------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                                                     | language | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| /home/mmd/projects/flutter/Farahosh/android/app/src/main/AndroidManifest.xml                                                 | XML      |         -1 |          0 |         -1 |         -2 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/api.dart                                                                         | Dart     |         29 |          0 |          8 |         37 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/blocs/leitner/leitner_cubit.dart                                    | Dart     |         52 |          0 |         12 |         64 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/blocs/leitner/leitner_state.dart                                    | Dart     |         17 |          0 |          7 |         24 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/blocs/leitner/new_leitner/new_leitner_cubit.dart                    | Dart     |         23 |          0 |          5 |         28 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/blocs/leitner/new_leitner/new_leitner_state.dart                    | Dart     |          5 |          0 |          4 |          9 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/blocs/leitner_box/leitner_box_cubit.dart                            | Dart     |         35 |          0 |          8 |         43 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/blocs/leitner_box/leitner_box_state.dart                            | Dart     |         10 |          0 |          6 |         16 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/blocs/new_leitner/new_leitner_cubit.dart                            | Dart     |         23 |          0 |          5 |         28 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/blocs/new_leitner/new_leitner_state.dart                            | Dart     |          5 |          0 |          4 |          9 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/blocs/settings/settings_state.dart                                  | Dart     |          1 |          0 |          1 |          2 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/blocs/splash/splash_cubit.dart                                      | Dart     |         -1 |          0 |          0 |         -1 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/blocs/tickeight/tickeight_cubit.dart                                | Dart     |         53 |          0 |         13 |         66 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/blocs/tickeight/tickeight_state.dart                                | Dart     |         17 |          0 |          7 |         24 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/blocs/tickeights/tickeights_cubit.dart                              | Dart     |         35 |          0 |          9 |         44 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/blocs/tickeights/tickeights_state.dart                              | Dart     |         10 |          0 |          6 |         16 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/blocs/wordnotes/wordnotes_cubit.dart                                | Dart     |         30 |          0 |          7 |         37 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/blocs/wordnotes/wordnotes_state.dart                                | Dart     |         10 |          0 |          5 |         15 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/data.dart                                                           | Dart     |        -50 |        -13 |         -4 |        -67 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/modules/const/routepage.dart                                        | Dart     |          9 |          6 |          6 |         21 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/modules/const/urlimages.dart                                        | Dart     |         15 |          0 |          0 |         15 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/modules/encryption.dart                                             | Dart     |          1 |          0 |          0 |          1 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/modules/extensions/widgets.dart                                     | Dart     |          3 |          0 |          0 |          3 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/modules/widgets/alertdialoggetcode.dart                             | Dart     |         26 |          0 |         -1 |         25 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/modules/widgets/barChart.dart                                       | Dart     |         50 |          0 |          2 |         52 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/modules/widgets/buttons/buttonWidget.dart                           | Dart     |         15 |          0 |         -1 |         14 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/modules/widgets/buttons/calculatorButton.dart                       | Dart     |          2 |          0 |          0 |          2 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/modules/widgets/chart.dart                                          | Dart     |        -25 |        -24 |         -4 |        -53 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/modules/widgets/chart/chatPM.dart                                   | Dart     |         62 |          0 |          7 |         69 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/modules/widgets/chart/formUser.dart                                 | Dart     |        115 |          2 |          5 |        122 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/modules/widgets/text.dart                                           | Dart     |        -11 |          0 |         -1 |        -12 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/modules/widgets/textField/TextFieldwidget.dart                      | Dart     |          5 |          0 |          1 |          6 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/modules/widgets/textField/searchTextField.dart                      | Dart     |          1 |          0 |          0 |          1 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/router/screens.dart                                                 | Dart     |          8 |         16 |          9 |         33 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/School_handout/School_handout_page1.dart                    | Dart     |        -94 |         -1 |         -3 |        -98 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/School_handout/school_handout_page2.dart                    | Dart     |        -25 |         -1 |         -3 |        -29 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/School_handout/school_handout_page3.dart                    | Dart     |        -46 |          0 |         -3 |        -49 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/calculator/calculator_page.dart                             | Dart     |          8 |          0 |          0 |          8 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/consultant/consultantBottomSheet/consultant.dart            | Dart     |        128 |          1 |          2 |        131 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/consultant/consultant_chat.dart                             | Dart     |        -68 |         -2 |         -4 |        -74 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/consultant/consultant_chat/consultant_HistoryChat.dart      | Dart     |         44 |          0 |          2 |         46 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/consultant/consultant_chat/consultant_chat.dart             | Dart     |         69 |          0 |          5 |         74 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/consultant/consultant_finished.dart                         | Dart     |       -189 |         -1 |         -5 |       -195 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/consultant/consultant_page1/consultant_page1.dart           | Dart     |         -1 |          0 |          0 |         -1 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/consultant/consultant_page2/consultant_page2.dart           | Dart     |         -1 |          0 |          0 |         -1 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/consultant/consultant_page3.dart                            | Dart     |       -246 |         -7 |         -6 |       -259 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/consultant/consultant_page3/consultant_page3.dart           | Dart     |        441 |          3 |         16 |        460 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/consultant/finished/consultantFinishedPage.dart             | Dart     |          7 |          0 |          0 |          7 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/consultant/reserved/consultant_page4.dart                   | Dart     |          6 |          0 |          0 |          6 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/leinter/leinter1/leinter1.dart                              | Dart     |         14 |         -5 |         -2 |          7 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/leinter/leinter1/showLeinter1BottomSheet.dart               | Dart     |         29 |          0 |          1 |         30 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/leinter/leinter2/leinter2_page.dart                         | Dart     |         16 |          0 |         -1 |         15 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/leinter/leinter3/leinter3_page.dart                         | Dart     |         30 |          0 |         -4 |         26 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/main/main_page.dart                                         | Dart     |         23 |          0 |          1 |         24 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/messenger/messenger.dart                                    | Dart     |       -139 |         -9 |         -4 |       -152 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/picsgallery/picsgallery.dart                                | Dart     |          8 |         -3 |         -1 |          4 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/picsgallery/picsgallery2.dart                               | Dart     |        -17 |         -2 |         -5 |        -24 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/podcast/podcast_1/podcast_page1.dart                        | Dart     |          4 |          0 |          1 |          5 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/podcast/podcast_5/podcast_page5.dart                        | Dart     |        -32 |          0 |          0 |        -32 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/profile/profile_coin/profileMain_page/profileMain_page.dart | Dart     |         -2 |          0 |          0 |         -2 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/profile/profilescreen.dart                                  | Dart     |        121 |          3 |          3 |        127 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/profilescreen.dart                                          | Dart     |       -121 |         -4 |         -3 |       -128 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/school/about/school_about.dart                              | Dart     |         39 |          0 |          0 |         39 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/school/handout/handout.dart                                 | Dart     |       -130 |         -1 |         -5 |       -136 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/school/handout/handoutPdf/handoutPdf.dart                   | Dart     |         90 |          1 |          6 |         97 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/school/handout/handoutVideo/handoutVideo.dart               | Dart     |         91 |          1 |          3 |         95 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/school/handout/handout_2.dart                               | Dart     |        -91 |         -1 |         -3 |        -95 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/school/handout/handout_3.dart                               | Dart     |        -90 |         -1 |         -6 |        -97 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/school/handout/main/handoutMain.dart                        | Dart     |         80 |          1 |          9 |         90 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/school/handout/mine/handoutMine.dart                        | Dart     |        146 |          1 |          5 |        152 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/school/handout/others/handoutOthers.dart                    | Dart     |        104 |          1 |          5 |        110 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/school/messenger/chat/schoolChat.dart                       | Dart     |         98 |          0 |          4 |        102 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/school/messenger/messenger.dart                             | Dart     |         65 |          0 |          3 |         68 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/school/schedule/schedule.dart                               | Dart     |        529 |          2 |         11 |        542 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/school/school_page.dart                                     | Dart     |         21 |          0 |          0 |         21 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/school/score/diagram/scoreDiagram.dart                      | Dart     |         53 |          0 |          2 |         55 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/school/score/scores.dart                                    | Dart     |        -30 |         -1 |          0 |        -31 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/school/test/avg/testAVG.dart                                | Dart     |         78 |          0 |          2 |         80 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/school/test/done/testDone_1.dart                            | Dart     |         14 |          0 |          0 |         14 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/school/test/mid/testMid.dart                                | Dart     |         78 |          0 |          2 |         80 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/school/test/test.dart                                       | Dart     |          0 |          0 |          1 |          1 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/school/tuition/tuition.dart                                 | Dart     |        345 |          8 |         14 |        367 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/setting/chooseColor/chooseColor.dart                        | Dart     |        227 |          0 |          6 |        233 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/setting/fingerprint_dialog/bottom_sheet.dart                | Dart     |         -1 |          0 |          0 |         -1 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/setting/settingscreen.dart                                  | Dart     |         31 |          0 |          0 |         31 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/stopwatch.dart                                              | Dart     |       -209 |         -3 |        -11 |       -223 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/tickeight/tickeight..dart                                   | Dart     |         12 |          0 |         -3 |          9 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/tickit/createcart/createcartscreen.dart                     | Dart     |         21 |          0 |         -1 |         20 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/tickit/tickitscreen.dart                                    | Dart     |         20 |         -4 |         -3 |         13 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/tools/tools_page.dart                                       | Dart     |         -1 |          0 |          0 |         -1 |
+| /home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/wallet/walletscreen.dart                                    | Dart     |         -1 |          0 |          0 |         -1 |
+| /home/mmd/projects/flutter/Farahosh/lib/main.dart                                                                            | Dart     |         22 |         -1 |          1 |         22 |
+| Total                                                                                                                        |          |      2,157 |        -38 |        154 |      2,273 |
++------------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+

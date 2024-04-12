@@ -1,0 +1,204 @@
+.audioPlayer {
+  max-width: 1140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 64px auto 0 auto;
+  backdrop-filter: blur(2.5px);
+  background-image: url(../../../assets/image/audio-player-bg.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.audioPlayerButtons {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.play {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.play:hover {
+  transform: scale(1.1);
+}
+.forwardBackward {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.forwardBackward:hover {
+  transform: scale(1.1);
+}
+
+.playPause {
+  border: none;
+  border-radius: 50%;
+  width: 95px;
+  height: 95px;
+  font-size: 32px;
+  color: var(--secondary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.audioPlayerInfo {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.currentTime,
+.duration {
+  font-family: "IRANSansX";
+  font-weight: 600;
+  font-size: 14px;
+
+  color: #1d9bf0;
+}
+
+.currentTime {
+  margin-left: 25px;
+}
+
+.progressBar {
+  --bar-bg: #cccccc;
+  --seek-before-width: 0;
+  --seek-before-color: #3452a5;
+  --knobby: #3452a5;
+  --selectedKnobby: #26c9c3;
+  direction: ltr;
+
+  appearance: none;
+  background: var(--bar-bg);
+  border-radius: 10px;
+  position: relative;
+  width: 100%;
+  height: 11px;
+  outline: none;
+}
+
+/* progress bar - safari */
+.progressBar::-webkit-slider-runnable-track {
+  background: var(--bar-bg);
+  border-radius: 10px;
+  position: relative;
+  width: 100%;
+  height: 11px;
+  outline: none;
+}
+
+/* progress bar - firefox */
+.progressBar::-moz-range-track {
+  background: var(--bar-bg);
+  border-radius: 10px;
+  position: relative;
+  width: 100%;
+  height: 11px;
+  outline: none;
+}
+
+.progressBar::-moz-focus-outer {
+  border: 0;
+}
+
+/* progress bar - chrome and safari */
+.progressBar::before {
+  content: "";
+  height: 11px;
+  width: var(--seek-before-width);
+  background-color: var(--seek-before-color);
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  cursor: pointer;
+}
+
+/* progress bar - firefox */
+.progressBar::-moz-range-progress {
+  background-color: var(--seek-before-color);
+  border-radius: 10px;
+  height: 11px;
+}
+
+/* knobby - chrome and safari */
+.progressBar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 0;
+  width: 0;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--knobby);
+  cursor: pointer;
+  position: relative;
+  margin: -2px 0 0 0;
+  z-index: 3;
+  box-sizing: border-box;
+}
+
+/* knobby while dragging - chrome and safari */
+.progressBar:active::-webkit-slider-thumb {
+  transform: scale(1.2);
+  background: var(--selectedKnobby);
+}
+
+/* knobby - firefox */
+.progressBar::-moz-range-thumb {
+  height: 0;
+  width: 0;
+  border-radius: 50%;
+  border: transparent;
+  border-radius: 10px;
+  background-color: var(--knobby);
+  cursor: pointer;
+  position: relative;
+  z-index: 3;
+  box-sizing: border-box;
+}
+
+/* knobby while dragging - firefox */
+.progressBar:active::-moz-range-thumb {
+  transform: scale(1.2);
+  background: var(--selectedKnobby);
+}
+
+@media only screen and (max-width: 1200px) {
+  .audioPlayer {
+    flex-direction: column;
+    gap: 15px; ;
+    padding: 16px  0 10px 0 ;
+  }
+
+  .audioPlayerButtons {
+    width: 100%;
+    gap: 30px;
+   
+  }
+  .audioPlayerInfo {
+    width: 85%;
+    gap: 25px;
+  }
+
+  .currentTime {
+    margin: 0;
+  }
+
+}
+
+@media only screen and (min-width: 576px) {
+  
+}
+
+@media only screen and (min-width: 1200px) {
+}

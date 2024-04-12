@@ -1,0 +1,131 @@
+/* .home_section_1 {
+  width: 100%;
+  height: fit-content;
+  margin: auto;
+} */
+.section_1_title {
+  width: 100%;
+}
+.section_1_items {
+  padding: 5%;
+}
+.right_context {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.section_1_text {
+  font-family: "IRANSansX";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: right;
+  width: 100%;
+  height: 364px;
+}
+.pic {
+  width: 411.13px;
+  height: 495.53px;
+}
+.section_1_btn {
+  align-self: flex-end;
+  margin-right: 10%;
+}
+.home_section_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 85%;
+  margin-top: 8%;
+  margin-bottom: 5%;
+}
+.main_spaccePic {
+  max-width: 1440px;
+  width: 100٪;
+  height: 1024px;
+
+  /* BG-dark */
+
+  background: linear-gradient(90deg, #071e47 -18.75%, #000a1c 45.42%);
+  /* shadow-bigSec */
+
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.05),
+    inset -5px -5px 20px rgba(0, 0, 0, 0.04);
+}
+.spacePic {
+  width: 100%;
+}
+.main_spaccePic_mob, 
+.spacePic_mob{
+  display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  .home_section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .home_section_1 {
+    width: 100%;
+    height: fit-content;
+  }
+  .pic {
+    width: 313px;
+    height: 353.31px;
+  }
+  .section_1_title {
+  text-align: center; 
+  }
+  .section_1_text {
+    width: 90%;
+    overflow: hidden;
+    height: fit-content;
+    margin-bottom: 20px;
+  }
+  .section_1_btn {
+    align-self: center;
+    margin-right: 0;
+  }
+  
+}
+
+@media only screen and (max-width: 500px){
+  .main_spaccePic,
+  .spacePic{
+    display: none !important;
+  }
+  .main_spaccePic_mob{
+    display: block !important;
+  }
+  .spacePic_mob{
+    display: block !important;
+    width: 100%;
+
+  }
+  .home_section_1 {
+    width: 100%;
+    height: fit-content;
+  }
+  .pic {
+    width: 213px;
+    height: 253.31px;
+  }
+  .section_1_text{
+    width: 80%;
+    text-align: right;
+    height: fit-content;
+    font-size: 14px !important;
+    line-height: 35px !important;
+    text-align: center;
+  }
+  .section_1_title {
+  font-weight: 400 !important;
+  font-size: 20px !important;
+  text-align: center;
+}
+}

@@ -1,0 +1,148 @@
+.bestBooksSection1Container {
+  max-width: 90%;
+  direction: ltr;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+
+  margin: 64px auto 0 auto;
+}
+
+.bestBooksSection1Content {
+  direction: rtl;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "IRANSansX";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 235%;
+  text-align: justify;
+}
+
+.bestBooksSection1Content h1 {
+  font-family: "Rokh-Bold";
+  font-size: 38px;
+}
+
+.bestBooksSection1Content h6 {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.bestBooksSection1Media {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.bestBooksSection1PicInfo {
+  direction: rtl;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90px;
+  background-color: #1d9bf0;
+  border: 0.1px solid rgba(29, 155, 240, 0.25);
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.03),
+    inset -5px -5px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 0px 0px 50px 50px;
+}
+
+@media only screen and (max-width: 576px) {
+  .bestBooksSection1Container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 35px auto 0 auto;
+  }
+  .bestBooksSection1Content {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 235%;
+  }
+  .bestBooksSection1Content h1 {
+    font-size: 26px;
+  }
+  .bestBooksSection1Content h6 {
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .bestBooksSection1Media {
+    width: 80%;
+  }
+  .bestBooksSection1PicInfo {
+    height: 60px;
+    box-shadow: 0.60714px 6.60714px 9.91072px rgba(0, 0, 0, 0.03),
+      inset -3.30357px -3.30357px 13.2143px rgba(0, 0, 0, 0.04);
+    border-radius: 0px 0px 33.0357px 33.0357px;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .bestBooksSection1Container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 35px auto 0 auto;
+  }
+  .bestBooksSection1Content {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 50px;
+  }
+  .bestBooksSection1Content h1 {
+    font-size: 32px;
+  }
+  .bestBooksSection1Content h6 {
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  .bestBooksSection1Media {
+    width: 65%;
+  }
+  .bestBooksSection1PicInfo {
+    height: 75px;
+    box-shadow: 0.60714px 6.60714px 9.91072px rgba(0, 0, 0, 0.03),
+      inset -3.30357px -3.30357px 13.2143px rgba(0, 0, 0, 0.04);
+    border-radius: 0px 0px 33.0357px 33.0357px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .bestBooksSection1Container {
+    flex-direction: row;
+    justify-content: center;
+    margin: 64px auto 0 auto;
+  }
+  .bestBooksSection1Content {
+    width: 100%;
+    align-items: start;
+    font-size: 18px;
+    line-height: 50px;
+  }
+  .bestBooksSection1Content h1 {
+    font-size: 38px;
+  }
+  .bestBooksSection1Content h6 {
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  .bestBooksSection1Media {
+    width: 100%;
+  }
+  .bestBooksSection1PicInfo {
+    height: 90px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.03),
+      inset -5px -5px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 0px 0px 50px 50px;
+  }
+}

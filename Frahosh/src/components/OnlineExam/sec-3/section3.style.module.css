@@ -1,0 +1,43 @@
+.sec1_bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 14rem;
+}
+
+.sec1 {
+    width: 90%;
+    height: fit-content;
+}
+.pic_bg {
+  position: relative;
+  width: 574px !important;
+  height: 447px !important;
+}
+
+.pic {
+  position: absolute;
+  left: -5px;
+  top: -70px;
+}
+
+@media only screen and (max-width : 900px) {
+  .sec1{
+      height: fit-content;
+      width: 100%;
+  }
+  .pic_bg{
+    width: 300px !important;
+    height: 200px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .pic{
+      transform: scale(0.4);
+      left: 0;
+      top: 0;
+      position: relative;
+  }
+}

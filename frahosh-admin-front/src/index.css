@@ -1,0 +1,17 @@
+@import "./assets/css/font.css";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    direction: rtl;
+    font-family: IRANSansX;
+    background: linear-gradient(160deg, #DEE4E9, #F4F4F4);
+}
+
+.Toastify__toast-body {
+    font-family: "IRANSansX";
+}

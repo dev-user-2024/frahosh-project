@@ -1,0 +1,103 @@
+.swiper-slide {
+  width: 80%;
+}
+
+.slider_div1 {
+  background-color: #fff;
+  padding: 5%;
+  width: 420px;
+  height: 400px;
+  box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.08);
+  margin: 5%;
+  overflow-y: hidden;
+}
+
+.slider_div1 h4,
+.slider_div2 h4 {
+  font-family: "Rokh-Bold", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: #1d9bf0;
+}
+
+.slider_div2 {
+  height: 400px;
+  box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.08);
+  width: 420px;
+  margin: 5%;
+  background-color: #fff;
+  padding: 5%;
+}
+
+.slider {
+  height: 300px !important;
+}
+
+.Slide {
+  width: 370px !important;
+  height: 136px !important;
+  border: 0.5px solid rgba(29, 155, 240, 0.25);
+  padding: 5%;
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.slider_2 {
+  width: 370px !important;
+  height: 66px !important;
+  padding: 5%;
+  margin: 2%;
+  border: 0.5px solid rgba(29, 155, 240, 0.25);
+}
+
+.date_time {
+  font-family: "IRANSansX", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.forwardIcon {
+  rotate: 180deg;
+}
+
+.numberFracoins {
+  font-weight: 500;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.explain {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.titleSlider2 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 235%;
+}
+
+.removIcon {
+  border: solid #d50f00 1px !important;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addIcon {
+  border: solid #11aa63 1px !important;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

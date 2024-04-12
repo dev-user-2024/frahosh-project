@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`match with snapshot 1`] = `
+<div
+  className="home_section1"
+>
+  <div
+    className="home_section_1"
+  >
+    <div
+      className="z-pattern-container z-pattern-ltr"
+    >
+      <div
+        className="MuiStack-root css-1gyf1iv-MuiStack-root"
+      >
+        <div
+          className="section_1_img"
+        >
+          <img
+            alt=""
+            className="pic"
+            src="Group 69.png"
+          />
+        </div>
+        <div
+          className="section_1_right"
+        >
+          <div
+            className="right_context"
+          >
+            <h3
+              className="section_1_title"
+            >
+              تصمیم‌گیری برات سخته؟ همین الان وارد سامانه مشاوره شو!
+            </h3>
+            <p
+              className="section_1_text"
+            >
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت.
+            </p>
+            <a
+              className="section_1_btn"
+              href="/test"
+              onClick={[Function]}
+            >
+              <button
+                className="button-container undefined"
+              >
+                ورود به سامانه
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="main_spacePic"
+  >
+    <img
+      alt=""
+      className="spacePic"
+      src="Frame 10.png"
+    />
+  </div>
+  <div
+    className="main_spacePic_mob"
+  >
+    <img
+      alt=""
+      className="spacePic_mob"
+      src="Frame 10-mob.png"
+    />
+  </div>
+</div>
+`;

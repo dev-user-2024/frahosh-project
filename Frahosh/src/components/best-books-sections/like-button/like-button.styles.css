@@ -1,0 +1,24 @@
+.like-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+
+  font-family: "IRANSansX";
+  font-weight: 400;
+  font-size: 18px;
+  color: #FAFAFA;
+  transition: all 0.3s;
+  
+}
+.liked {
+  font-weight: 600;
+  
+}
+
+@media only screen and (max-width: 576px) {
+  .like-button{
+    transform: scale(0.7);
+  }
+}

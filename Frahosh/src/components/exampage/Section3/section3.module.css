@@ -1,0 +1,28 @@
+.Section1{
+  margin-top: 100px;
+  font-family: "Rokh-Regular";
+  color: white;
+  font-size: 19px;
+  line-height: 4;
+  background-image: url(../../../assets/image/exampage-sec3.png);
+  background-repeat: no-repeat;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-position: center;
+  gap: 30px;
+  width: 100%;
+}
+.container p{
+  margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 700px) {
+  .Section1{
+      margin-top: 100px;
+
+  }
+}

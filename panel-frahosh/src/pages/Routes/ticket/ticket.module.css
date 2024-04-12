@@ -1,0 +1,18 @@
+.addTicket{
+    color: #fff;
+    text-align: center;
+    height: 48px;
+    background: #1D9BF0;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+}
+.waitingForResponse{
+color: #828282;
+;
+}
+.answered{
+ color:#11AA63; 
+}
+.label{
+    
+}

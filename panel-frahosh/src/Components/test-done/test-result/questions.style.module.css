@@ -1,0 +1,16 @@
+.exam {
+  width: 1000px;
+  height: 522px;
+  background: #FAFAFA;
+  box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.08);
+  padding-inline: 20px;
+  padding-block: 40px;
+  margin-block: 36px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .exam {
+    width: 100%;
+    height: fit-content;
+  }
+}

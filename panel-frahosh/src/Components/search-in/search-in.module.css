@@ -1,0 +1,42 @@
+textarea:focus, input:focus{
+    outline: none;
+}
+.container{
+
+}
+.search{
+    background-color: #FFFFFF;
+    padding: 10px 40px;
+    width: 450px;
+    border-radius: 15px;
+}
+.searchsvg{
+    position: relative;
+    bottom:35px;
+    right: 415px;
+}
+.voice{
+    position: relative;
+    top:35px;
+    right: 10px;
+}
+@media only screen and (max-width: 1200px) {
+    .search{
+        width: 350px;
+    }
+    .searchsvg{
+        right: 315px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .container{
+        margin: 0 auto;
+    }
+    .search{
+        width: 250px;
+    }
+    .searchsvg{
+        right: 215px;
+    }
+    
+}

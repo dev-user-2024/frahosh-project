@@ -1,0 +1,53 @@
+
+.topsec {
+  display: flex;
+
+  justify-content: center;
+}
+.left {
+  width: 20%;
+  height: 600px;
+}
+.right {
+  width: 80%;
+}
+.title {
+  align-self: start;
+  font-family: "Rokh-medium";
+  font-size: 22px;
+  color: #1d9bf0;
+  margin-bottom: 10px;
+}
+.textlow {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #6c6c6c;
+}
+.box {
+  margin-top: 20px;
+
+  padding: 10px 15px 20px 15px;
+  min-height: 100px;
+  background: #ffffff;
+  box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.08);
+  font-size: 14px;
+  color: #040c1a;
+  font-style: normal;
+  font-weight: 600;
+  text-align: justify;
+}
+@media only screen and (max-width: 1050px) {
+  .topsec {
+    flex-direction: column;
+  }
+  .left {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  .right {
+    width: 100%;
+  }
+}

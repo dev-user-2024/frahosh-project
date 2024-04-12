@@ -1,0 +1,13 @@
+.donedText{
+    color:#6C6C6C;
+    text-decoration: line-through;
+}
+.scheduleBtn{
+padding: 8px 65px;
+width: 200px;
+height: 48px;
+background: #1D9BF0;
+border-radius: 10px;
+text-align: center;
+color: #fff;
+}

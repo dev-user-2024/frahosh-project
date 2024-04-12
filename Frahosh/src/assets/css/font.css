@@ -1,0 +1,139 @@
+@font-face {
+    font-family: "Rokh-Black";   /*Can be any text*/
+    src: url("../fonts/rokh-pro/eot/Rokh-Black.eot") format("eot");
+    src: url("../fonts/rokh-pro/woff2/Rokh-Black.woff2") format("woff2");
+  }
+  
+  @font-face {
+    font-family: "Rokh-Bold";   /*Can be any text*/
+    src: url("../fonts/rokh-pro/eot/Rokh-Bold.eot") format("eot");
+    src: url("../fonts/rokh-pro/woff2/Rokh-Bold.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "Rokh-ExtraBold";   /*Can be any text*/
+    src: url("../fonts/rokh-pro/eot/Rokh-ExtraBold.eot") format("eot");
+    src: url("../fonts/rokh-pro/woff2/Rokh-ExtraBold.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "Rokh-ExtraLight";   /*Can be any text*/
+    src: url("../fonts/rokh-pro/eot/Rokh-ExtraLight.eot") format("eot");
+    src: url("../fonts/rokh-pro/woff2/Rokh-ExtraLight.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "Rokh-HairLine";   /*Can be any text*/
+    src: url("../fonts/rokh-pro/eot/Rokh-HairLine.eot") format("eot");
+    src: url("../fonts/rokh-pro/woff2/Rokh-HairLine.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "Rokh-Light";   /*Can be any text*/
+    src: url("../fonts/rokh-pro/eot/Rokh-Light.eot") format("eot");
+    src: url("../fonts/rokh-pro/woff2/Rokh-Light.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "Rokh-Medium";   /*Can be any text*/
+    src: url("../fonts/rokh-pro/eot/Rokh-Medium.eot") format("eot");
+    src: url("../fonts/rokh-pro/woff2/Rokh-Medium.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "Rokh-Normal";   /*Can be any text*/
+    src: url("../fonts/rokh-pro/eot/Rokh-Normal.eot") format("eot");
+    src: url("../fonts/rokh-pro/woff2/Rokh-Normal.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "Rokh-Regular";   /*Can be any text*/
+    src: url("../fonts/rokh-pro/eot/Rokh-Regular.eot") format("eot");
+    src: url("../fonts/rokh-pro/woff2/Rokh-Regular.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "Rokh-SemiBold";   /*Can be any text*/
+    src: url("../fonts/rokh-pro/eot/Rokh-SemiBold.eot") format("eot");
+    src: url("../fonts/rokh-pro/woff2/Rokh-SemiBold.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "Rokh-Thin";   /*Can be any text*/
+    src: url("../fonts/rokh-pro/eot/Rokh-Thin.eot") format("eot");
+    src: url("../fonts/rokh-pro/woff2/Rokh-Thin.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "Rokh-UltraBold";   /*Can be any text*/
+    src: url("../fonts/rokh-pro/eot/Rokh-UltraBold.eot") format("eot");
+    src: url("../fonts/rokh-pro/woff2/Rokh-UltraBold.woff2") format("woff2");
+  }
+
+
+
+
+
+  @font-face {
+    font-family: IRANSansX;
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/Iran-sansx-font/woff/IRANSansX-Thin.woff') format('woff'),   
+    url('../fonts/Iran-sansx-font/woff2/IRANSansX-Thin.woff2') format('woff2');		
+  }
+  
+  @font-face {
+    font-family: IRANSansX;
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/Iran-sansx-font/woff/IRANSansX-UltraLight.woff') format('woff'),   
+    url('../fonts/Iran-sansx-font/woff2/IRANSansX-UltraLight.woff2') format('woff2');	
+  }
+  
+  @font-face {
+    font-family: IRANSansX;
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/Iran-sansx-font/woff/IRANSansX-Light.woff') format('woff'),   
+    url('../fonts/Iran-sansx-font/woff2/IRANSansX-Light.woff2') format('woff2');		 
+  }
+  
+  @font-face {
+    font-family: IRANSansX;
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/Iran-sansx-font/woff/IRANSansX-Medium.woff') format('woff'),   
+    url('../fonts/Iran-sansx-font/woff2/IRANSansX-Medium.woff2') format('woff2');		 
+  }
+  
+  @font-face {
+    font-family: IRANSansX;
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/Iran-sansx-font/woff/IRANSansX-DemiBold.woff') format('woff'),   
+    url('../fonts/Iran-sansx-font/woff2/IRANSansX-DemiBold.woff2') format('woff2');	 
+  }
+  
+  @font-face {
+    font-family: IRANSansX;
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/Iran-sansx-font/woff/IRANSansX-ExtraBold.woff') format('woff'),   
+    url('../fonts/Iran-sansx-font/woff2/IRANSansX-ExtraBold.woff2') format('woff2');		 
+  }
+  
+  @font-face {
+    font-family: IRANSansX;
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/Iran-sansx-font/woff/IRANSansX-Black.woff') format('woff'),   
+    url('../fonts/Iran-sansx-font/woff2/IRANSansX-Black.woff2') format('woff2');		 
+  }
+  
+  @font-face {
+    font-family: IRANSansX;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/Iran-sansx-font/woff/IRANSansX-Bold.woff') format('woff'),   
+    url('../fonts/Iran-sansx-font/woff2/IRANSansX-Bold.woff2') format('woff2');	 
+  }
+  
+  @font-face {
+    font-family: IRANSansX;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/Iran-sansx-font/woff/IRANSansX-Regular.woff') format('woff'),   
+    url('../fonts/Iran-sansx-font/woff2/IRANSansX-Regular.woff2') format('woff2');	
+  }
+  
+  

@@ -1,0 +1,254 @@
+.slider_bg {
+    width: 100%;
+    backdrop-filter: blur(4px);
+    /* Note: backdrop-filter has minimal browser support */
+    background-image: url("../../../assets/image/Rectangle\ 61.png");
+    border-radius: 50px;
+    height: 292px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    scrollbar-color: blue;
+}
+
+.section3 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 210px;
+}
+
+.logining_form {
+    width: 100%;
+    background-image: url("../../../assets/image/Group\ 461.png");
+    background-size:cover;
+    height: 647px;
+    max-height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 147px;
+    align-items: center;
+}
+
+.form_section {
+    width: 100%;
+    background: rgba(29, 155, 240, 0.02);
+    backdrop-filter: blur(7.5px);
+}
+
+.title_form {
+    width: 603px;
+    height: 38px;
+    text-align: center;
+    /* title-web-large */
+    font-family: "Rokh-Bold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 38px;
+    text-align: right;
+    font-feature-settings: 'ss01' on, 'calt' off, 'rclt' off;
+    margin-bottom: 61px;
+    /* Primary */
+
+    color: #1D9BF0;
+}
+.title_form h4{
+    text-align: center;
+}
+.input_form {
+    width: 1139px;
+    height: 157px;
+}
+
+.input_element {
+    width: 507px;
+    height: 60px;
+}
+
+.second_input {
+    margin-top: 37px;
+}
+
+.input_fild {
+    width: 367px;
+    height: 60px;
+
+    /* BG-frame */
+
+    background: #FAFAFA;
+    /* Primary */
+
+border: 1px solid #1D9BF0;
+border-radius: 15px;
+/* border-bottom: none; */
+}
+
+.slider_section {
+    width: 100%;
+    margin-top: 210px;
+    margin-bottom: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider_title {
+    font-family: "Rokh-Bold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: right;
+    font-feature-settings: 'ss01' on, 'calt' off, 'rclt' off;
+
+    /* Primary */
+    margin-bottom: 56px;
+}
+
+.slider_context {
+    width: 1138px;
+    height: 386px;
+}
+.pricesContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    margin: 0 auto;
+    transition: all 0.3s;
+  }
+  
+  .pericesCardContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    transition: all 0.3s;
+  }
+  
+  #pricesContainerh3 {
+    color: #1d9bf0;
+    font-family: "Rokh-Bold";
+    font-size: 30px;
+    line-height: 38px;
+    text-align: right;
+    transition: all 0.3s;
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .pricesContainer {
+      width: 100%;
+      flex-direction: column;
+      align-items:center;
+      gap: 50px;
+    }
+  
+    .pericesCardContainer {
+      flex-direction: column;
+      align-items:center;
+      gap: 45px;
+     
+    }
+  
+    #pricesContainerh3 {
+      font-size: 18px;    
+    }
+  }
+  
+  @media only screen and (min-width: 576px) {
+    .pricesContainer {
+      width: 100%;
+      flex-direction: column;
+      align-items:center;
+      gap: 50px;
+  
+    }
+  
+    .pericesCardContainer {
+      flex-direction: column;
+      gap: 40px;
+     
+    }
+  
+    #pricesContainerh3 {
+      font-size: 26px;    
+    }
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .pricesContainer {
+      width: 100%;
+      flex-direction: column;
+      align-items:start;
+      gap: 90px;
+  
+    }
+    .pericesCardContainer {
+      flex-direction: row;
+      gap: 50px;
+     
+    }
+  
+    #pricesContainerh3 {
+      
+      font-size: 26px;    
+    }
+  }
+  
+@media only screen and (max-width:1200px){
+    .title_form{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 23px;
+        width: 90%;
+    }
+    .logining_form{
+        height: fit-content;
+    }
+    .input_form {
+        height: 470px;
+        width: 75%;
+    }
+    .input_element {
+       height: 100px;
+       font-weight: 500;
+       font-size: 14px;
+       line-height: 235%;
+    }
+    .input_fild{
+        width: 369px;
+height: 40px;
+    }
+    .slider_context{
+        width: 90%;
+    }
+    .slider_bg{
+        width: 100%;
+        height: 189px;
+    }
+    #pricesContainerh3 {
+      text-align: center;
+      margin-bottom: 5%;
+    }
+}
+  
+@media only screen and (max-width:500px){
+  .input_element,
+  .input_fild{
+    width: 270px;
+  }
+  .title_form{
+    font-size: 14px;
+  }
+  .slider_title{
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    text-align: center;
+}
+}

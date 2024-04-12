@@ -1,0 +1,23 @@
+.weekday,.holiday,.today,.selectedday{
+background: #FFFFFF;
+box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.08);
+color: #040C1A;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 120px;
+height: 80px;
+justify-content: center;
+font-size: 18px;
+font-weight: 700;
+margin-bottom: 1rem;
+}
+.today{
+    color: #1D9BF0;
+}
+.holiday{
+    color: #D40F00;
+}
+.selectedday{
+    color : #1D9BF0;
+}

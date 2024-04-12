@@ -1,0 +1,26 @@
+
+.card_bg {
+    box-sizing: border-box;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 65px;
+gap: 10px;
+width: 333.56px;
+height: 55.59px;
+background: #FAFAFA;
+border: 1px solid #1D9BF0;
+border-radius: 0px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .bg {
+        width: 100%;
+    }
+    .card_bg {
+        width: 200px;
+        padding: 0;
+    }
+    
+}

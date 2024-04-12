@@ -1,0 +1,131 @@
+.header {
+  /* max-width: 1440px; */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* gap: 134px; */
+  margin: 0 auto;
+  background: #0f0c13;
+}
+
+.header_content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 19px;
+}
+
+.header_content h5:nth-child(1) {
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  text-transform: uppercase;
+  background: linear-gradient(92.61deg, #5be2ff 0%, #066b81 108.3%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-weight: 400;
+}
+
+.reflect{
+  -webkit-box-reflect: below -70px linear-gradient(transparent, #0004) !important;
+}
+
+.header_content h1 {
+  font-size: 155px;
+  line-height: 211px;
+  color: #16121b;
+  text-transform: uppercase;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+  animation: animate 5s linear infinite;
+}
+
+
+@keyframes animate {
+
+  0%,
+  18%,
+  20%,
+  50.1%,
+  60%,
+  65.1%,
+  80%,
+  90.1%,
+  92% {
+    color: transparent;
+    text-shadow: none;
+  }
+
+  18.1%,
+  20.1%,
+  30%,
+  50%,
+  60.1%,
+  65%,
+  80.1%,
+  90%,
+  92.1%,
+  100% {
+    color: #2196f3;
+    text-shadow: 0 0 10px #2196f3,
+      0 0 7px #2196f3,
+      0 0 25px #2196f3,
+      0 0 140px #2196f3,
+      0 0 160px #2196f3
+  }
+}
+
+.header_content h5:nth-child(3) {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 400;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  /* gradient-magenta */
+
+  background: linear-gradient(91.92deg, #e1a4ff 0%, #8d26be 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+@media only screen and (max-width: 900px) {
+  .header_content h1 {
+    /* font-family: 'Gilroy-Black'; */
+    font-size: 130px;
+    line-height: 211px;
+    color: #16121b;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .header_content h1 {
+    /* font-family: 'Gilroy-Black'; */
+    font-size: 100px;
+    line-height: 211px;
+    color: #16121b;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .header_content h5:nth-child(1) {
+    font-size: 26px;
+  }
+
+  .header_content h1 {
+    font-size: 60px;
+
+  }
+
+  .header_content h5:nth-child(3) {
+    font-size: 26px;
+  }
+}

@@ -1,0 +1,50 @@
+label{
+    margin-bottom: .8rem;
+    margin-top: 2rem;
+}
+.ticketinput{
+font-weight: 500;
+font-size: 14px;
+align-items: center;
+text-align: right;
+color: #6C6C6C;
+border: 1px solid #c0c0c0;
+border-radius: 10px;
+padding: 1rem .4rem;
+background: none;
+height: 48px;
+}
+.textarea{
+background: none;
+border: 1px solid #c0c0c0;
+border-radius: 10px;
+margin-bottom:1.7rem;
+width:100%;
+min-height: 230px;
+padding: .5rem;
+}
+.sendTicketBtn{
+    height: 48px;
+    background: #1D9BF0;
+    border-radius: 10px;
+    color: #fff;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sendTicketBtn{
+    margin-top: 3rem;
+}
+.ticketImg{
+    margin-left: .4rem;
+    width: 22px;
+    height: 22px;
+}
+.uploadedFile{
+border: 1px solid #c0c0c0;
+width: 70%;
+height: 48px;
+border-radius: 10px;
+
+}

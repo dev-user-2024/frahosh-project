@@ -1,0 +1,65 @@
+.sec2_bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 14rem;
+}
+
+.sec2 {
+  width: 1200px;
+  height: 602px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_item1 , 
+.card_item3 {
+  padding-top: 3rem;
+  gap: 5rem;
+  width: 270px;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: linear-gradient(180deg, #FAFF02 0%, rgba(250, 255, 2, 0.17) 49.48%, rgba(250, 255, 2, 0) 100%);
+  border-radius: 60px 0px 0px 0px;
+}
+
+.card_item2 , 
+.card_item4 {
+  padding-top: 3rem;
+  gap: 5rem;
+  width: 270px;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: linear-gradient(180deg, #1D9BF0 0%, rgba(29, 155, 240, 0.19) 65.62%, rgba(29, 155, 240, 0) 100%);
+  border-radius: 60px 0px 0px 0px;
+}
+
+.card_item1 , 
+.card_item4{
+  margin-top: 4rem;
+}
+
+.card_item3{
+  margin-top: 9rem;
+}
+
+@media only screen and (max-width:700px) {
+  .sec2 {
+    height: fit-content;
+  }
+
+  .card_item1 ,
+  .card_item2,
+  .card_item3, 
+  .card_item4{
+   margin-top: 1rem;
+  }
+}

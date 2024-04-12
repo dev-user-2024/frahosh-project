@@ -1,0 +1,17 @@
+.text{
+    color:#6C6C6C;
+    margin-right: 1rem !important;
+}
+.studentProfileGrid{
+    display: flex;
+    align-items: flex-end;
+    
+}
+.profileImgContainer{
+    background-image:url("../../../assests/image/profilestudentlogo.svg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    min-height: 200px;
+    min-width: 300px;
+    position: relative;
+}

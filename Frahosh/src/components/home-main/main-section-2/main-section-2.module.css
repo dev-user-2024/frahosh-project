@@ -1,0 +1,111 @@
+.home_section_2{
+    width: 85%;
+    height: fit-content;
+    margin: auto;
+    margin-bottom: 5%;
+}
+.main_section_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section2_title{
+    width: 100%;
+}
+.section2_text{
+    font-family: 'IRANSansX';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: right;
+    width: 100%;
+    height: 404px;
+}
+.home_section_2_link{
+    align-self: flex-start;
+}
+.section_2_img{
+    width: 453px;
+height: 435px;
+}
+.pic{
+    width: 355px;
+height: 426px;
+}
+
+.section_2_pic{
+    width: 100%;
+}
+.pic1{
+    width: 100%;
+}
+.section_2_pic_mob,
+    .pic1_mob{
+        display: none !important;
+    }
+
+@media only screen and (max-width:1200px) {
+    .home_section_2{
+        width: 90%;
+        height: fit-content;
+        text-align: center;
+    }
+    .pic{
+        width: 299.42px;
+        height: 342.8px;
+    }
+    .section_2_img{
+        width: 299.42px;
+        height: 342.8px;
+    }
+ 
+    .section2_text{
+        width: 100%;
+        height: fit-content;
+    
+    }
+    .home_section_2_link{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width:500px) {
+    .home_section_2{
+        width: 80%;
+        height: fit-content;
+    }
+    .pic{
+        width: 220.42px;
+        height: 262.8px;
+    }
+    .section_2_img{
+        width: 220.42px;
+        height: 292.8px;
+    }
+    .section2_title{
+        font-weight: 400 !important;
+        font-size: 20px !important;
+        text-align: center;
+    }
+    .section2_text{
+        width: 100%;
+        height: fit-content;  
+        font-size: 14px !important;
+        line-height: 35px !important;
+        text-align: center;
+      }
+    .section_2_pic,
+    .pic1{
+        display: none !important;
+    }
+    .section_2_pic_mob,
+    .pic1_mob{
+        display: block !important;
+    }
+    .pic1_mob{
+        width: 100%;
+    }
+}

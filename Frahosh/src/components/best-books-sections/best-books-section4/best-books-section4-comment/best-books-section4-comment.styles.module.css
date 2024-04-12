@@ -1,0 +1,112 @@
+.comment {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 30px 37px;
+  border: 1px solid #1d9bf0;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.05);
+  border-radius: 50px;
+  background-color: #fafafa;
+}
+
+.commentInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  font-family: "IRANSansX";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+
+  color: #6c6c6c;
+}
+.commentInfoPic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.commentContent {
+  font-family: "IRANSansX";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 50px;
+  color: #040c1a;
+}
+
+@media only screen and (max-width: 576px) {
+  .comment {
+    gap: 20px;
+    padding: 15px 25px;
+    border: 0.488838px solid #1d9bf0;
+    box-shadow: 4.88838px 4.88838px 12.2209px rgba(0, 0, 0, 0.05);
+    border-radius: 50px;
+  }
+
+  .commentInfo {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .commentInfoPic {
+    font-size: 18px;
+  }
+
+  .commentContent {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 235%;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .comment {
+    gap: 35px;
+    padding: 25px 30px;
+    border: 0.488838px solid #1d9bf0;
+    box-shadow: 4.88838px 4.88838px 12.2209px rgba(0, 0, 0, 0.05);
+    border-radius: 50px;
+  }
+
+  .commentInfo {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .commentInfoPic {
+    font-size: 18px;
+  }
+
+  .commentContent {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 235%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .comment {
+    gap: 50px;
+    padding: 30px 37px;
+    border: 1px solid #1d9bf0;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.05);
+    border-radius: 50px;
+  }
+
+  .commentInfo {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .commentInfoPic {
+    font-size: 18px;
+  }
+
+  .commentContent {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 50px;
+  }
+}

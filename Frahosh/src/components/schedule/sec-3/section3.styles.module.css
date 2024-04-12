@@ -1,0 +1,45 @@
+.sec3_bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16rem;
+}
+.sec3{
+    width: 90%;
+    height: fit-content;
+}
+
+.text_num{
+    width: 90%;
+    height: fit-content;
+    margin-bottom: 6%;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.pic{
+    width: 435.61px;
+    height: 484.31px;
+}
+
+
+@media only screen and (max-width : 900px) {
+    .sec3{
+        height: fit-content;
+        width: 100%;
+    }
+    .sec3_bg{
+        margin-bottom: 6rem;
+    }
+    .pic{
+        transform: scale(0.8);
+        margin-top: 15%;
+    }.text_num{
+        width: 100%;
+    }
+}

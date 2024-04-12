@@ -1,0 +1,19 @@
+.box {
+margin-top: 242px;
+padding:0px 20px;
+direction: ltr;
+}
+@media only screen and (max-width: 600px) {
+.one{
+    margin-left: 140px;
+    transform: scale(0.9);
+}
+.two{
+    transform: scale(0.9);
+    margin-right: 80px ;
+}
+.three{
+    transform: scale(0.9);
+    margin-left: 140px;
+}
+}

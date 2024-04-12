@@ -1,0 +1,225 @@
+.button-container {
+  width: 172px;
+  height: 47px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #1d9bf0;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+  color: #fafafa;
+  font-family: "IRANSansX";
+  font-style: normal;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+  transform: scale(0.9);
+}
+
+.button-container:hover {
+  transform: scale(1.1);
+  
+}
+
+
+.navigation-button {
+  width: 130px;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #1d9bf0;
+}
+
+.main-section-3-btn {
+  width: 230px;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #ffffff;
+  color: #1d9bf0;
+  font-family: "IRANSansX";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  text-align: right;
+}
+.main-section-3-btn-mob{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+margin-bottom: 10%;
+
+width: 215px;
+height: 40px;
+/* Primary */
+
+background: #1D9BF0;
+box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+border-radius: 10px;
+}
+.header-section-1-text-button {
+  width: 172px;
+  height: 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  background-color: #ffffff;
+  color: #1d9bf0;
+}
+
+.btn-login-bg-blue {
+  width: 172px;
+  height: 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  background-color: #1d9bf0;
+  color: #ffffff;
+}
+.school-login-btn{
+  width: 228px;
+height: 50px;
+margin-top: 61px;
+/* Primary */
+
+background: #1D9BF0;
+box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+border-radius: 10px;
+}
+.gmail_login_btn{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+width: 180px;
+height: 48px;
+margin-left: 30px;
+
+background: #FFEEEC;
+border-radius: 10px;
+}
+.yahoo_login_btn{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+width: 180px;
+height: 48px;
+
+background: #EEE1FF;
+border-radius: 10px;
+}
+
+.gmail_login_btn_responsive{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+width: 370px;
+height: 48px;
+
+background: #FFEEEC;
+border-radius: 10px;
+}
+.yahoo_login_btn_responsive{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+width: 370px;
+height: 48px;
+
+background: #EEE1FF;
+border-radius: 10px;
+}
+.sign_btn{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 65px;
+gap: 10px;
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 235%;
+color: #FFFFFF;
+width: 388px;
+height: 48px;
+background: #1D9BF0;
+border-radius: 10px;
+}
+
+.btn_white{
+    width: 172px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    background-color: white;
+    color: #1d9bf0;
+}
+
+.smartening_btn{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+width: 172px;
+height: 47px;
+color: #1D9BF0;
+background: #FAFAFA;
+border: 1px solid #1D9BF0;
+font-family: "IRANSansX";
+font-size: 16px;
+border-radius: 10px;
+text-align: center;
+margin-right: 1rem;
+}
+
+@media only screen and (max-width:450px) {
+  .yahoo_login_btn_responsive,
+  .gmail_login_btn_responsive{
+    width: 290px;
+  }
+  .button-container {
+  transform: scale(0.75);
+  }
+
+  .smartening_btn , 
+  .button-container {
+    margin-bottom: 2rem;
+  }
+}

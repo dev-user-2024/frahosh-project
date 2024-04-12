@@ -1,0 +1,263 @@
+.login{
+    height: 932px;
+    width: 100%;
+background: linear-gradient(180deg, rgba(173, 211, 236, 0.3) 0%, rgba(234, 246, 255, 0.3) 100%), #FFFFFF;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+}
+.login_card{
+    display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+}
+
+.login_card_title{
+    width: 150px;
+height: 26px;
+font-family: 'Rokh-Bold';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 26px;
+/* identical to box height */
+
+text-align: right;
+
+margin-bottom: 25px;
+
+color: #040C1A;
+}
+.login_card_title h3{
+    text-align: center;
+}
+.pic1{
+    width: 100%;
+}
+.input1{
+    display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 12px 35px 12px 20px;
+gap: 8px;
+background: #FAFAFA;
+
+width: 388px;
+height: 48px;
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 235%;
+/* or 33px */
+
+display: flex;
+align-items: center;
+text-align: right;
+font-feature-settings: 'ss02' on;
+color: #040C1A;
+
+border: 0.5px solid #FAFAFA;
+border-radius: 10px;
+background-image: url("../../assets/icons/Profile\ 1.svg");
+background-repeat: no-repeat;
+background-position: 355px 10px;
+}
+.input2{
+    display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 12px 35px 12px 20px;
+gap: 8px;
+color: #040C1A;
+
+width: 388px;
+height: 48px;
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 235%;
+/* or 33px */
+margin-top: 40px;
+margin-bottom: 22px;
+display: flex;
+align-items: center;
+text-align: right;
+font-feature-settings: 'ss02' on;
+
+
+background: #FAFAFA;
+
+border: 0.5px solid #FAFAFA;
+border-radius: 10px;
+background-image: url("../../assets/icons/Lock\ 1.svg");
+background-repeat: no-repeat;
+background-position: 355px 10px;
+}
+.border_section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 428px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+.border1{
+    background-image: url('../../assets//image/Line\ 3.png');
+    width: 200px;
+    height: 1px;
+}
+.border_text{
+    font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 32px;
+
+display: flex;
+align-items: center;
+text-align: right;
+font-feature-settings: 'ss02' on;
+
+
+color: black;
+}
+.border2{
+    background-image: url('../../assets//image/Line\ 2.png');
+    width: 200px;
+    height: 1px;
+}
+
+.bg_checkbox{
+    width:380px;
+    position: relative;
+}
+
+.checkbox{
+    width: 24px;
+height: 24px;
+cursor: pointer;
+outline: 0;
+border: 1px solid #FAFAFA;
+border-radius: 5px;
+margin-left: 11px;
+background: #ffffff !important;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+}
+.checkbox:checked{
+    background: #1D9BF0 !important;
+}
+.checkbox:checked ~ .checkbox_sign::after{
+    display: block;
+}
+.checkbox_sign{
+    position: absolute;
+    right: 6px;
+    top: 0px;
+}
+.checkbox_sign::after{
+    content: " ";
+    position: absolute;
+    display: none;
+    width: 6px;
+    height: 15px;
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.checkbox_text{
+    font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+margin-bottom: 30px;
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #000000;
+}
+.login_withPassword{
+    width: 152px;
+height: 32px;
+margin-top: 21px;
+margin-bottom: 5px;
+
+/* body-large */
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 32px;
+/* identical to box height, or 200% */
+
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'ss02' on;
+
+color: #1D9BF0 !important;
+}
+.border3{
+    background-image: url("../../assets/image/Line\ 1.png");
+    width: 428px;
+    height: 1px;
+}
+.makeUser{
+    font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 32px;
+/* identical to box height, or 200% */
+display: flex;
+flex-direction: row;
+align-items: center;
+text-align: right;
+font-feature-settings: 'ss02' on;
+
+color: #000000;
+}
+.makeUser_link{
+    font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 32px;
+/* identical to box height, or 200% */
+
+display: flex;
+align-items: center;
+text-align: right;
+font-feature-settings: 'ss02' on;
+color: #1D9BF0;
+
+
+}
+
+@media screen and (max-width:450pc) {
+    .input1,
+    .input2{
+        width: 280px;
+    }
+    .bg_checkbox{
+        width:280px;
+    }
+    .border_section,
+    .border3{
+        width: 330px;
+    }
+}

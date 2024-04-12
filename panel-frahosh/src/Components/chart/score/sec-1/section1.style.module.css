@@ -1,0 +1,32 @@
+.sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 1rem;
+}
+.chart_bg{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.linechart_bg {
+    width: 40%;
+}
+
+.barchart_bg {
+    width: 40%;
+}
+.Slide {
+    width: 1000px;
+height: 81px !important;
+margin: 1rem;
+background: #FFFFFF;
+box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.08);
+}
+.slider {
+    height:300px;
+}

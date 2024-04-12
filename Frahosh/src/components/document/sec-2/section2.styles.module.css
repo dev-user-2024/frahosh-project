@@ -1,0 +1,21 @@
+.sec_bg {
+    display:flex;
+    justify-content: center;
+}
+
+.sec {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+@media only screen and (max-width:900px) {
+    .sec {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}

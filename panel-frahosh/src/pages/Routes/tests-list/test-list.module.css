@@ -1,0 +1,10 @@
+.container {
+  margin: 0 auto;
+}
+
+.title {
+  color: #1d9bf0;
+  padding-bottom: 15px;
+  padding-top: 30px;
+  font-family: "IRANSansX";
+}

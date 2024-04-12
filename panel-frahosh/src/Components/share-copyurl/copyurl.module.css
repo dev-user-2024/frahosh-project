@@ -1,0 +1,25 @@
+.background {
+  background: rgba(0, 0, 0, 0.4);
+  background: rgba( 0, 0, 0, 0.15 );
+  backdrop-filter: blur( 3px );
+  -webkit-backdrop-filter: blur( 3px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.share{
+  display: none;
+}
+
+@media only screen and (max-width : 1224px) {
+.share{
+  display: flex;
+}
+.copy{
+  display: none;
+}
+}

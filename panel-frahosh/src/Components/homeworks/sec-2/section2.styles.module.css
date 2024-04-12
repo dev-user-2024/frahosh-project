@@ -1,0 +1,90 @@
+.sec_bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.chart_btn {
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 65px;
+font-family: "IRANSansX";
+gap: 10px;
+width: 249.25px;
+height: 60px;
+font-size: 13px;
+background: #FAFAFA;
+border-width: 1px 1px 1px 1px;
+border-style: solid;
+border-color: #1D9BF0;
+border-radius: 0px;
+}
+.chart_btn2 {
+    box-sizing: border-box;
+display: flex;
+flex-direction: row;
+justify-content: center;
+font-family: "IRANSansX";
+align-items: center;
+padding: 8px 65px;
+gap: 10px;
+font-size: 13px;
+width: 249.25px;
+height: 60px;
+background: #FAFAFA;
+border-width: 1px 0px 1px 1px;
+border-style: solid;
+border-color: #1D9BF0;
+border-radius: 0px;
+}
+
+.charth_bg_done {
+    width: 95%;
+    background: #FAFAFA;
+    padding: 20px;
+    box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.08);
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.charth {
+    width: 100%;
+    height:33px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.precetchart{
+    border-radius: 5rem;
+    height: 40px;
+     background: linear-gradient(180deg, #ACEBCE 0%, #E9FAF2 100%);
+     box-shadow: -2px -2px 12px 0px rgba(17, 170, 99, 1) inset;
+    box-shadow: 2px 2px 10px 0px rgba(17, 170, 99, 1) inset;
+}
+.precetchartbg {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-inline: 1rem;
+}
+
+@media only screen and (max-width:900px) {
+    .chart_btn2 {
+        border-width: 1px 1px 1px 1px;
+        margin-top: 1rem;
+    }
+    .charth_bg {
+        width: 80%;
+    }
+    .charth {
+        width: 90%;
+    }
+}

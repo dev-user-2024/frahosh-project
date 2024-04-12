@@ -1,0 +1,21 @@
+.headersection2card {
+  width: 251px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 31px;
+  background-color: #fafafa;
+  box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.08);
+  border-radius: 50px;
+}
+@media only screen and (max-width: 900px) {
+  .headersection2card {
+    width: 150px;
+    height: 144px;
+    gap: 31px;
+    border-radius: 33px;
+
+  }
+}

@@ -1,0 +1,96 @@
+.section_5{
+    width: 85%;
+    height: fit-content;
+    margin: auto;
+}
+.section5_title{
+    width: 100%;
+
+}
+.section5_text{
+    font-family: 'IRANSansX';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: right;
+    width: 100%;
+    height: fit-content;
+}
+.pic{
+    width: 411.13px;
+    height: 495.53px;
+}
+.home_section_5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+@media only screen and (max-width:1200px) {
+    .home_section_5{
+        width: 80%;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    .section_5{
+        width: 100%;
+        height: fit-content;
+        margin: auto;
+        text-align: center;
+    }
+    .section_5_img,
+    .pic{
+        width: 308px;
+        height: 319px;
+    }
+    .section5_title{
+        width: 100%;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        text-align: center;
+   }
+    
+.section5_text{
+         width: 100%;
+        height: fit-content;
+        margin: auto;
+    }
+    .main_section_5_btn{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+}
+@media only screen and (max-width:500px) {
+    .section_5_img,
+    .pic{
+        width: 208px;
+        height: 219px;
+    }
+    .section5_title{
+        width: 100%;
+        font-weight: 400 !important;
+        font-size: 20px !important;
+        text-align: center;
+    }
+    .section5_text{
+        width: 100%;
+        height: fit-content;
+        font-size: 14px !important;
+        line-height: 35px !important;
+        text-align: center;
+    }
+    .home_section_5{
+        width: 80%;
+        height: fit-content;
+    }
+}

@@ -1,0 +1,20 @@
+
+.suggestion {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  cursor: pointer;
+    font-family: "IRANSansX";
+    font-weight: 500;
+    font-size: 18px;
+    color: #040c1a;
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .suggestion {
+      display: flex;
+      flex-direction: column;
+      text-align:center;
+    }
+  }
+ 

@@ -1,0 +1,10 @@
+.card {
+  width: 321.25px;
+  height: 341.38px;
+  border-radius: 0px 0px 63.02 63.02;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background:url('../../../../assets/image/Rectangle\ 53.svg');
+}

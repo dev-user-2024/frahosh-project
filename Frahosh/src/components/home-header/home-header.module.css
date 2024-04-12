@@ -1,0 +1,24 @@
+.header {
+  max-width: 1440;
+  height: fit-content;
+  overflow-x: hidden;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../../assets//image/bg-header.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+@media only screen and (max-width: 900px) {
+  .header {
+    max-width: 100%;
+    height:auto;
+    overflow-x: hidden;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../../assets//image/bg-hero-xs.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  } 
+}

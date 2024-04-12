@@ -1,0 +1,104 @@
+import { Stack } from "@mui/system";
+import Button from "../buttons/button.component";
+import style from "./signout2.module.css";
+import gmailBtnPic from "../../assets/icons/image8-2.png";
+import yahooBtnPic from "../../assets/icons/yahoo-rebrand-pentagram_dezeen_2364_col_0--.png";
+import pic1 from "../../assets/image/Group 549.png";
+import { Link } from "react-router-dom";
+const SignOutPage2 = () => {
+  return (
+    <div className={style.login}>
+      <div className={style.login_card}>
+        <Stack
+          direction={{ md: "column", lg: "row" }}
+          justifyContent="space-between"
+          alignItems="center"
+        >
+          <div className={style.section1}>
+            <div>
+              <h3 className={style.title}>ایجاد حساب</h3>
+            </div>
+            <div>
+              <Stack
+                direction={{ md: "column", lg: "row" }}
+                justifyContent="center"
+                rowGap={2}
+              >
+                <Button buttonType="GmailBtnLogin">
+                  <img
+                    className={style.gmail_btn_pic}
+                    src={gmailBtnPic}
+                    alt=""
+                  />
+                  <p className={style.gmail_btn_text}>ورود با گوگل</p>
+                </Button>
+                <Button buttonType="YahooBtnLogin">
+                  <img
+                    className={style.gmail_btn_pic}
+                    src={yahooBtnPic}
+                    alt=""
+                  />
+                  <p className={style.yahoo_btn_text}>ورود با یاهو</p>
+                </Button>
+              </Stack>
+            </div>
+            <div className={style.border_section}>
+              <div className={style.border1}></div>
+              <p className={style.border_text}>یا</p>
+              <div className={style.border2}></div>
+            </div>
+            <div>
+              <input
+                className={style.input1}
+                type="text"
+                placeholder="نام"
+              ></input>
+              <input
+                className={style.input2}
+                type="text"
+                placeholder="نام خانوادگی"
+              ></input>
+              <input
+                className={style.input2}
+                type="text"
+                placeholder="کدملی"
+              ></input>
+              <input
+                className={style.input2}
+                type="email"
+                placeholder="آدرس ایمیل"
+              ></input>
+              <input
+                className={style.input2}
+                type="password"
+                placeholder="رمز عبور"
+              ></input>
+              <input
+                className={style.input2}
+                type="password"
+                placeholder="تکرار رمز عبور"
+              ></input>
+            </div>
+            <Button buttonType="SignBtn">
+              {" "}
+              <Link>ایجاد حساب</Link>
+            </Button>
+            <div className={style.border3}></div>
+            <div className={style.makeUser}>
+              حساب کاربری داری؟
+              <Link className={style.makeUser_link} to="/login">
+                وارد شو :)
+              </Link>
+            </div>
+          </div>
+          <div className={style.section2}>
+            <div className={style.section2_bg}></div>
+            <img src={pic1} alt="" className={style.section2_pic1} />
+          </div>
+        </Stack>
+      </div>
+    </div>
+  );
+};
+
+export default SignOutPage2;

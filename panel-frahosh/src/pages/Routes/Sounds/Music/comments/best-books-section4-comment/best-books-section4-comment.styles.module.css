@@ -1,0 +1,51 @@
+.comment {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 15px 20px;
+  box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.08);
+  background-color: #FFFFFF;
+  text-align: justify;
+}
+
+.commentInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  font-family: "IRANSansX";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #6C6C6C;
+}
+
+
+.commentContent {
+  font-family: "IRANSansX";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 40px;
+  color: #040C1A;
+}
+
+@media only screen and (max-width: 600px) {
+  .comment {
+    gap: 20px;
+
+
+  }
+
+  .commentInfo {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+
+  .commentContent {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 235%;
+  }
+}
+

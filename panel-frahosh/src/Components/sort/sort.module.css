@@ -1,0 +1,38 @@
+.row{
+    font-size: 14px;
+    display: flex;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.title{
+    display: flex;
+    padding:0px 43px 0px 0px;
+
+}
+.title p{
+    padding: 0px 10px;
+}
+.items{
+    display: flex;
+    padding: 0px 10px;
+}
+.item{
+    display: flex;
+    padding: 0px 10px;
+    cursor:pointer;
+}
+.item:active{
+    color: #1D9BF0;
+}
+.item:hover{
+    color: #1D9BF0;
+}
+@media only screen and (max-width: 530px) {
+    .row{
+        font-size: 13px;
+        flex-wrap: wrap;
+    }
+    .title{
+        padding:0px 40px 0px 0px;
+    }
+}

@@ -1,0 +1,50 @@
+.item1 {
+  width: 300px;
+  height: 330px;
+  background-size: cover;
+}
+
+.bg_testdone_header {
+  background: url("../../../assests//image//Frame 32.png");
+  background-size: cover;
+  width: 1000px;
+  height: 302px;
+}
+
+.bg_header_text {
+  height: 302px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 50px;
+}
+
+.testChoice_bg1,
+.testChoice_bg2,
+.testChoice_bg3 {
+  width: 306px;
+  height: 339px;
+  box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.08);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testChoice_bg1 {
+  background: linear-gradient(180deg, #F1A6A0 0%, #FFF2F1 100%);
+}
+
+.testChoice_bg2 {
+  background: linear-gradient(180deg, #ACEBCE 0%, #E9FAF2 100%);
+}
+
+.testChoice_bg3 {
+  background: linear-gradient(180deg, #ADD3EC 0%, #EAF6FF 100%);
+}
+
+@media only screen and (max-width: 600px) {
+  .bg_testdone_header {
+    width: 80%;
+    transform: scale(0.7);
+  }
+}

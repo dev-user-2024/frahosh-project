@@ -1,0 +1,245 @@
+.section2 {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  margin: auto;
+}
+
+.section2_1{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  /* align-items: center; */
+  margin: auto;
+}
+.section2_title{
+  width: 90%;
+  font-family: 'Rokh-Bold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 38px;
+  text-align: right;
+  font-feature-settings: 'ss01' on, 'calt' off, 'rclt' off;
+  /* Primary */
+
+  }
+.card {
+  margin: 1% !important;
+}
+.card_blue {
+  position: relative;
+  width: 364px;
+  height: 346px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 36px;
+  background: #1d9bf0;
+  border-radius: 50px;
+}
+.card_shadow_yellow {
+  width: 348px;
+  height: 332px;
+  position: absolute;
+  background: rgba(250, 255, 2, 0.9);
+  filter: blur(27.5px);
+  border-radius: 50px;
+}
+
+.card_white {
+  width: 364px;
+  height: 346px;
+  background-image: url("../../../assets/image/Rectangle\ 72.png");
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  padding: 36px;
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 50px;
+}
+
+.card_header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  gap: 13px;
+}
+.card_title_blue {
+
+  font-family: "Rokh-Bold";
+  font-size: 30px;
+  color: #1d9bf0;
+}
+.card_title_yellow {
+
+  font-family: "Rokh-Bold";
+  font-size: 30px;
+
+  color: #faff02;
+}
+
+.card_text {
+  font-family: "IRANSansX";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 50px;
+
+  color: #040c1a;
+}
+.card_text_white {
+
+
+  font-family: "IRANSansX";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 50px;
+  text-align: right;
+  font-feature-settings: "ss02" on;
+
+
+  color: #fafafa;
+}
+.section2_phone_cards{
+  display: none;
+  visibility: hidden;
+}
+
+@media only screen and (max-width : 1200px) {
+  .section2_title{
+    text-align: center;
+  }
+  .section2_phone_cards{
+    display: block;
+    visibility:visible;
+  }
+  .section2_desktop_cards{
+    display:none;
+    visibility:hidden;
+  }
+}
+@media only screen and (max-width:800px) {
+  .card_text_white{
+    font-weight: 400;
+font-size: 12px;
+line-height: 24px;
+width: 145.21px;
+height: 66.76px;
+  }
+  .card_text{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    width: 145.21px;
+    height: 66.76px;
+  }
+  .card_title_yellow{
+    font-weight: 600;
+font-size: 15px;
+line-height: 19px;
+  }
+  .card_title_blue{
+font-weight: 600;
+font-size: 15px;
+line-height: 19px;
+  }
+.card_header{
+  width: 85.5px;
+height: 47.97px;
+}
+.card_header img{
+  width: 47.77px;
+height: 45.78px;
+}
+/* .card{
+  width: 173.87px;
+height: 193px;
+} */
+.card_shadow_yellow{
+  width: 173.87px;
+height: 193px;
+}
+.card_blue{
+  width: 223.87px;
+  height: 250px;
+}
+.card_white{
+  width: 223.87px;
+  height: 250px;
+border: 0.48px solid;
+
+border-image-source: linear-gradient(238.78deg, rgba(29, 155, 240, 0.04) 5.63%, #1D9BF0 21.48%, rgba(29, 155, 240, 0.04) 39.31%, rgba(29, 155, 240, 0.04) 62.08%, #1D9BF0 83.53%, rgba(29, 155, 240, 0.04) 100%);
+
+
+}
+}
+@media only screen and (max-width:500px) {
+
+  .section2_title{
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    text-align: center;
+  }
+  .card_text_white{
+  font-size: 8px;
+  line-height: 24px;
+  width: 95%;
+  height: fit-content;
+  }
+  .card_text{
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 24px;
+    width: 95%;
+    height: fit-content;
+  }
+  .card_title_yellow{
+    font-weight: 600;
+font-size: 12px;
+line-height: 19px;
+  }
+  .card_title_blue{
+font-weight: 600;
+font-size: 12px;
+line-height: 19px;
+  }
+.card_header{
+  width: 85.5px;
+height: 47.97px;
+}
+.card_header img{
+  width: 27.77px;
+height: 25.78px;
+}
+/* .card{
+  width: 173.87px;
+height: 193px;
+} */
+.card_shadow_yellow{
+  width: 123.87px;
+height: 173px;
+}
+.card_blue{
+  width: 143.87px;
+  height: 190px;
+}
+.card_white{
+  width: 143.87px;
+  height: 190px;
+  border: 0.48px solid;
+
+border-image-source: linear-gradient(238.78deg, rgba(29, 155, 240, 0.04) 5.63%, #1D9BF0 21.48%, rgba(29, 155, 240, 0.04) 39.31%, rgba(29, 155, 240, 0.04) 62.08%, #1D9BF0 83.53%, rgba(29, 155, 240, 0.04) 100%);
+}
+.card{
+  width: 300px;
+}
+}

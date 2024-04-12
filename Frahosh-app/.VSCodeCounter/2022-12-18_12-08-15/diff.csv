@@ -1,0 +1,11 @@
+"filename", "language", "Dart", "XML", "YAML", "comment", "blank", "total"
+"/home/mmd/projects/flutter/Farahosh/android/app/src/main/AndroidManifest.xml", "XML", 0, 1, 0, 0, 0, 1
+"/home/mmd/projects/flutter/Farahosh/lib/app/api.dart", "Dart", 3, 0, 0, 0, 1, 4
+"/home/mmd/projects/flutter/Farahosh/lib/app/presentation/blocs/new_ticket/new_ticket_cubit.dart", "Dart", 13, 0, 0, 0, 5, 18
+"/home/mmd/projects/flutter/Farahosh/lib/app/presentation/blocs/new_ticket/new_ticket_state.dart", "Dart", 10, 0, 0, 0, 4, 14
+"/home/mmd/projects/flutter/Farahosh/lib/app/presentation/blocs/ticket/ticket_cubit.dart", "Dart", 5, 0, 0, 0, 2, 7
+"/home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/planner/planner_page1/planner_page.dart", "Dart", 8, 0, 0, 0, -1, 7
+"/home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/ticket/ticket_1/ticket.dart", "Dart", 22, 0, 0, 0, 1, 23
+"/home/mmd/projects/flutter/Farahosh/lib/app/presentation/screens/ticket/tiket_2/newticket.dart", "Dart", 63, 0, 0, 0, -3, 60
+"/home/mmd/projects/flutter/Farahosh/pubspec.yaml", "YAML", 0, 0, 1, 0, 0, 1
+"Total", "-", 124, 1, 1, 0, 9, 135

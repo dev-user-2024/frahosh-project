@@ -1,0 +1,75 @@
+.header-section-1 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.header-section-1-text {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  margin: 35px 5% 35px 0;
+  font-family: "IRANSansX";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffff;
+}
+
+.header-section-1-text-h1 {
+  font-family: "Rokh-SemiBold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 49px;
+  color: #faff02;
+}
+
+.header-section-1-text ul li {
+  list-style: none;
+  margin-top: 26px;
+}
+
+
+.header-section-1-pic {
+  width: 595px;
+  height: 551px;
+}
+@media only screen and (max-width: 900px) {
+  .header-section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .header-section-1-pic {
+    width: 370px;
+    height: auto ;
+    margin-left: 100px;
+  }
+  .header-section-1-text-h1 {
+    font-weight: 700;
+    font-size: 26px;
+    color: #faff02;
+    line-height: 49px;
+    margin-top: -50px;
+  }
+  .header-section-1-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    margin: 35px 0px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .header-section-1-text ul li {
+    list-style: none;
+    margin-top: 15px;
+  }
+  .header-section-1-text-button-container{
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,7 @@
+.equal {
+  border: dotted 1px #1D9BF0 !important;
+}
+
+.equal:hover {
+  background-color: #eab917;
+}

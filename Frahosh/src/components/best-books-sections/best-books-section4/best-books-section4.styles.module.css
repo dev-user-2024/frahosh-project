@@ -1,0 +1,22 @@
+.bestBooksSection4Container {
+  max-width: 1140px;
+  display: flex;
+  justify-content: space-between;
+ 
+  margin: 150px auto 0 auto;
+}
+
+@media only screen and (max-width: 1200px) {
+  .bestBooksSection4Container {
+    flex-direction: column;
+    align-items: center;    
+    gap:130px;
+    margin: 150px auto 0 auto;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+}
+
+@media only screen and (min-width: 1200px) {
+}
